@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "kiona-regular";
+    src: url("../font/kiona-regular.ttf");
+}
+@font-face {
+    font-family: "berthold-header";
+    src: url("../font/berthold-header.otf");
+}
+@font-face {
+    font-family: "berthold-title";
+    src: url("../font/berthold-title.ttf");
+}
+@font-face {
+    font-family: "berthold-paragraph";
+    src: url("../font/berthold-paragraph.otf");
+}
+section {
+    background-color: white;
+    height: 100vh;
+    color: black;
+    font-family: kiona-regular;
+    font-size: 2em;
+}
+h1 {
+    font-family: berthold-header;
+}
+h2 {
+    font-family: berthold-title;
+}
+h3, h4, h5, h6 {
+    font-family: berthold-paragraph;
+}
+#home {
+    background-color: black;
+}
+#menu {
+    font-family: berthold-title;
+    font-size: 1em;
+    color: white;
+    display: flex;
+    height: 7vh;
+}
+#menu > div {
+    flex: 1;
+}
+.menu-logo {
+    flex: 3;
+}
+.menu-logo img {
+    height:5vh;
+}
+#tagline {
+    font-family: berthold-header;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+#tagline img {
+    height: 10vh;
+}
+.homepage {
+    display: flex;
+}
+.homepage > div {
+    flex: 1;
+}
+.homepage-title {
+    display: flex;
+    align-items: center;
+}
+.homepage-title img {
+    height: 10vh;
+    width: 10vh;
+}
+.homepage-paragraph {
+    display: flex;
+    align-items: center;
+}
+#portfolio .homepage-paragraph {
+    font-family: berthold-header;
+    display: flex;
+    flex-direction: column;
+}
+#portfolio .homepage-paragraph > div {
+    flex: 1;
+}
+#portfolio .homepage-paragraph img {
+    height: 20vh;
+}
+.center {
+    display: flex;
+    align-items: center;
+}
+#value {
+    flex-direction: column;
+}
