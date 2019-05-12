@@ -10,13 +10,16 @@
         <div>Our Value</div>
         <div>Contact</div>
     </div>
-    <div id = "tagline">
+    <div id = "tagline" class = "center">
         <div>
             <img src = "img/logo/arrow-white.png">
         </div>
         <div>
             Rediscover Honest
         </div>
+    </div>
+    <div class = "white">
+        <i class="fas fa-angle-down"></i>
     </div>
 </section>
 
