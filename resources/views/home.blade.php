@@ -1,6 +1,6 @@
 @extends('layout.app')
 @section('body')
-<section id = "home">
+<section id = "home" class = "black-background">
     <div id = "menu">
         <div class = "menu-logo">
             <img src="img/logo/logo2-white.png">
@@ -18,8 +18,8 @@
             Rediscover Honest
         </div>
     </div>
-    <div class = "white">
-        <i class="fas fa-angle-down"></i>
+    <div class = "arrow">
+        <a href="#service"><i class="fas fa-angle-down"></i></a>
     </div>
 </section>
 

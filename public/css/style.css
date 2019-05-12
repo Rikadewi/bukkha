@@ -14,6 +14,9 @@
     font-family: "berthold-paragraph";
     src: url("../font/berthold-paragraph.otf");
 }
+html {
+    scroll-behavior: smooth;
+}
 section {
     background-color: white;
     height: 100vh;
@@ -31,8 +34,11 @@ h2 {
 h3, h4, h5, h6 {
     font-family: berthold-paragraph;
 }
-#home {
+
+/* Home */
+.black-background {
     background-color: black;
+    transition: 0.3s all;
 }
 #menu {
     font-family: berthold-title;
@@ -65,14 +71,19 @@ h3, h4, h5, h6 {
     height: 12vh;
     margin: 10px;
 }
-#home .white {
+#home .arrow {
     text-align: center;
     margin-top: -2vh;
     font-size: 1.5em;
 }
-.white {
+.arrow a {
     color: white;
 }
+.change-background-color {
+    background-color: white;
+}
+
+/* Service */
 .homepage {
     display: flex;
 }
