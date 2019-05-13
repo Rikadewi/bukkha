@@ -41,17 +41,17 @@ section {
     background-color: white;
     height: 100vh;
     color: black;
-    font-family: kiona-regular;
+    font-family: adobe-caslon-pro-regular;
     font-size: 2em;
     padding: 2vh;
 }
 h1 {
-    font-family: berthold-header;
+    font-family: kiona-regular;
 }
 h2 {
-    font-family: berthold-title;
+    font-family: nexa-regular;
 }
-h3, h4, h5, h6 {
+h3 {
     font-family: adobe-caslon-pro-regular;
 }
 h4, h5 {
@@ -72,7 +72,7 @@ h5 {
     color: white;
 }
 #menu {
-    font-family: nexa-bold;
+    font-family: nexa-regular;
     font-size: 0.7em;
     color: white;
     display: flex;
@@ -139,7 +139,7 @@ h5 {
     height: 1em;
     width: 1em;
     margin-bottom: -0.1em;
-    margin-right: 0.1em;
+    margin-right: 0.3em;
 }
 .headline {
     font-size: 0.7em;
@@ -241,13 +241,49 @@ h5 {
     padding-top: 90vh;
 }
 /* Portfolio Page */
-#portfolio-page .homepage-title {
-    display: flex;
+#portfolio-page img {
+    width: 30vw;
+    height: 70vh;
+    margin-left: 10vw;
+    opacity: 0.7;
+}
+#portfolio-page {
+    background-image: url("../img/house/1/front.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+    color: white;
+}
+#portfolio-page .center {
     flex-direction: column;
 }
-.portfolio-house img {
-    height: 10vh;
+.button {    
+    border-radius: 15px;
+    border: 4px solid white;
+    padding: 0.1em 1em;
+    margin-top: 2em;
+    font-family: nexa-book;
 }
-#portfolio-page .homepage-paragraph img {
-    width: 50vh;
+.shape-content {
+    position: absolute;
+    width: 30vw;
+    height: 70vh;
+    margin-left: 10vw;
+}
+#portfolio-page h4,h5 {
+    font-size: 0.8em;
+}
+
+/* Detail Page */
+#detail-page .paragraph > div {
+    flex: 1;
+}
+.detail div {
+    border-left: 1px solid #999;
+    padding: 1em;
+}
+#detail-page h3 {
+    font-size: 0.6em;
 }

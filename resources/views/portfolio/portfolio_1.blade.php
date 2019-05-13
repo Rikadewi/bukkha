@@ -1,21 +1,25 @@
 @extends('layout.app')
 @section('body')
-<section id = "portfolio-page" class = "homepage">
-    <div class = "homepage-title">
-        <img src = "../img/logo/arrow-black.png"> PORTFOLIO
-        <div>
-            <h4>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque quos temporibus, fugit aperiam libero vel omnis. Praesentium temporibus dolores nihil soluta commodi eum eos non. Quam incidunt debitis reiciendis ipsum.
-            </h4>
+<section id = "portfolio-page">
+    <div>
+        <div class = "shape-content center">
+            <h5>Normal House</h5>
+            <h4>Renaissance</h4>
+            <div class = "button">Read More</div>
         </div>
-        <div class = "portfolio-house">
-            <img src = "../img/house/1/1.jpg">
-            <img src = "../img/house/1/2.jpg">
-            <img src = "../img/house/1/3.jpg">
-        </div>
+        <img src = "../img/shape.png">
     </div>
-    <div class = "homepage-paragraph">
-        <img src = "../img/house/1/front.jpg">
+</section>
+<section id = "detail-page" class = "gray-background paragraph">
+    <div></div>
+    <div class = "detail center">
+        <div>
+            <h2>Normal House</h2>
+            <h3>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus animi cum architecto perspiciatis voluptas illum culpa nulla harum natus earum reprehenderit quo minus temporibus nobis fugit numquam, neque facilis est.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem blanditiis sequi alias sint sapiente at quisquam labore impedit, amet vitae excepturi, quaerat voluptatum illum explicabo mollitia veniam beatae repudiandae deleniti?
+            </h3>
+        </div>
     </div>
 </section>
 @endsection
