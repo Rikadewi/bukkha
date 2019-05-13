@@ -3,8 +3,9 @@
 <section id = "home" class = "black-background">
     <div id = "menu">
         <div class = "menu-logo">
-            <img src="img/logo/logo2-white.png">
+            <img class = "none" src="img/logo/logo2-white.png">
         </div>
+        <div style = "flex: 4"></div>
         <div>Service</div>
         <div>Portfolio</div>
         <div>Our Value</div>
@@ -12,10 +13,10 @@
     </div>
     <div id = "tagline" class = "center">
         <div>
-            <img src = "img/logo/arrow-white.png">
+            <img src = "img/logo/logo-white.png">
         </div>
-        <div>
-            Rediscover Honest
+        <div class = "none">
+            Redefining Living
         </div>
     </div>
     <div class = "arrow">
@@ -23,70 +24,99 @@
     </div>
 </section>
 
-<section id = "service" class = "homepage">
-    <div class = "homepage-title">
-        <img src = "img/logo/arrow-black.png"> SERVICE
-    </div>
+<section id = "service" class = "center">
     <div class = "center">
-        <h5>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id alias provident ipsa quibusdam aspernatur. Laudantium nihil voluptates ratione cupiditate sint debitis reprehenderit nam laboriosam. Nam alias vero soluta dignissimos recusandae! 
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam necessitatibus, eum similique laborum impedit cupiditate? Blanditiis aut magnam dolor nemo, autem fuga ullam, harum neque repellendus, quis veniam odit dignissimos.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a porro repudiandae dolore odio sint facere mollitia explicabo saepe tenetur sed officia quibusdam, amet dignissimos quos eos cumque corrupti! Necessitatibus.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam natus totam nobis dignissimos voluptas qui repellat eius laudantium ea in ad incidunt distinctio, doloribus velit nesciunt, consequatur soluta iure necessitatibus!
-        </h5>  
+        <div class = "homepage-title">
+            <img src = "img/logo/arrow-black.png"> SERVICE
+        </div>
+        <div class = "headline">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id alias provident ipsa quibusdam aspernatur. Laudantium nihil voluptates ratione cupiditate sint debitis reprehenderit nam laboriosam. Nam alias vero soluta dignissimos recusandae!     
+        </div>
+        <div class = "paragraph">
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id alias provident ipsa quibusdam aspernatur. Laudantium nihil voluptates ratione cupiditate sint debitis reprehenderit nam laboriosam. Nam alias vero soluta dignissimos recusandae! 
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a porro repudiandae dolore odio sint facere mollitia explicabo saepe tenetur sed officia quibusdam, amet dignissimos quos eos cumque corrupti! Necessitatibus.
+            </div>
+        </div>
     </div>
 </section>
 
-<section id = "portfolio" class = "homepage">
+<section id = "portfolio" class = "center gray-background">
     <div class = "homepage-title">
-        <img src = "img/logo/arrow-black.png"> PORTFOLIO
+        <img src = "img/logo/arrow-white.png"> PORTFOLIO
     </div>
-    <div class = "homepage-paragraph center">
-        <a href = "/portfolio/1">
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                <img src = "img/house/1/front.jpg">
-            </div>
-        </a>
-        <a href = "/portfolio/1">
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                <img src = "img/house/2/front.jpg">
-            </div>
-        </a>
-        <a href = "/portfolio/1">
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                <img src = "img/house/3/front.jpg">
-            </div>
-        </a>
+    <div class = "paragraph">
+        <div>
+            <a href = "/portfolio/1">
+                <div class = "content center">
+                    <h5>Normal house</h5>
+                    <h4>Contemporer</h4>
+                </div>
+                <img src = "img/house/1/square.jpg">
+            </a>
+        </div>
+        <div>
+            <a href = "/portfolio/1">
+                <div class = "content center">
+                    <h5>Medium house</h5>
+                    <h4>Renaissance</h4>
+                </div>
+                <img src = "img/house/2/square.jpg">
+            </a>
+        </div>
+        <div>
+            <a href = "/portfolio/1">
+                <div class = "content center">
+                    <h5>Epic house</h5>
+                    <h4>Industry 4.0</h4>
+                </div>
+                <img src = "img/house/3/square.jpg">
+            </a>
+        </div>
     </div>
 </section>
 
-<section id = "value" class = "homepage">
+<section id = "value" class = "center">
     <div class = "homepage-title">
         <img src = "img/logo/arrow-black.png"> OUR VALUE
     </div>
-    <div class = "homepage-paragraph">
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div class = "paragraph">
+        <div class = "value-image center">
+            <img src = "img/house/sketch.jpg">
         </div>
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </div>
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div class = "values">
+            <div>
+                <img src = "img/value/1.png">
+                <br>Execellent Goal
+            </div>
+            <div>
+                <img src = "img/value/2.png">
+                <br>Extraoradinary Idea
+            </div>
+            <div>
+                <img src = "img/value/3.png">
+                <br>Extra Icon
+            </div>
         </div>
     </div>
 </section>
 
-<section id = "contact"  class = "homepage">
-    <div class = "homepage-title">
-        <img src = "img/logo/arrow-black.png"> CONTACT
+<section id = "contact"  class = "black-background center">
+    <div>
+        <img src = "img/logo/logo-white.png">
     </div>
-    <div class = "homepage-paragraph">
-        Email: hezky@bukkha.com
-        <br>Phone: +62812 8591 1718
+    <div class = "data">
+        <div>
+            <i class="fas fa-envelope"></i>hezky@bukkha.com
+        </div>
+        <div>
+            <i class="fas fa-phone"></i>+62 812 8591 1718
+        </div>
+    </div>
+    <div class = "footer">
+        &copy Bukkha 2019
     </div>
 </section>
 @endsection

@@ -14,6 +14,26 @@
     font-family: "berthold-paragraph";
     src: url("../font/berthold-paragraph.otf");
 }
+@font-face {
+    font-family: "nexa-regular";
+    src: url("../font/nexa-x/NexaBold.otf");
+}
+@font-face {
+    font-family: "nexa-book";
+    src: url("../font/nexa-x/NexaBook.otf");
+}
+@font-face {
+    font-family: "nexa-heavy";
+    src: url("../font/nexa-x/NexaHeavy.otf");
+}
+@font-face {
+    font-family: "adobe-caslon-pro-regular";
+    src: url("../font/adobe-caslon-pro/ACaslonPro-Regular.otf");
+}
+@font-face {
+    font-family: "adobe-caslon-pro-bold";
+    src: url("../font/adobe-caslon-pro/ACaslonPro-Bold.otf");
+}
 html {
     scroll-behavior: smooth;
 }
@@ -32,16 +52,27 @@ h2 {
     font-family: berthold-title;
 }
 h3, h4, h5, h6 {
-    font-family: berthold-paragraph;
+    font-family: adobe-caslon-pro-regular;
+}
+h4, h5 {
+    font-size: 0.5em;
+    text-transform: uppercase;
+}
+h4 {
+    font-family: nexa-heavy;
+}
+h5 {
+    font-family: nexa-book;
 }
 
 /* Home */
 .black-background {
     background-color: black;
     transition: 0.3s all;
+    color: white;
 }
 #menu {
-    font-family: berthold-title;
+    font-family: nexa-bold;
     font-size: 0.7em;
     color: white;
     display: flex;
@@ -50,7 +81,6 @@ h3, h4, h5, h6 {
 #menu > div {
     flex: 1;
     text-align: center;
-    border-right: 1px solid white;
 }
 #menu .menu-logo {
     flex: 3;
@@ -59,7 +89,7 @@ h3, h4, h5, h6 {
     height:5vh;
 }
 #tagline {
-    font-family: kiona-regular;
+    font-family: adobe-caslon-pro-regular;
     font-size: 1em;
     color: white;
     height: 100%;
@@ -68,7 +98,7 @@ h3, h4, h5, h6 {
     margin-top: -10vh;
 }
 #tagline img {
-    height: 12vh;
+    height: 30vh;
     margin: 10px;
 }
 #home .arrow {
@@ -82,45 +112,134 @@ h3, h4, h5, h6 {
 .change-background-color {
     background-color: white;
 }
-
-/* Service */
-.homepage {
-    display: flex;
-}
-.homepage > div {
-    flex: 1;
-}
-.homepage-title {
-    display: flex;
-    align-items: center;
-}
-.homepage-title > img {
-    height: 10vh;
-    width: 10vh;
-}
-.homepage-paragraph {
-    display: flex;
-    align-items: center;
-}
-#portfolio .homepage-paragraph {
-    font-family: berthold-header;
-    display: flex;
-    flex-direction: column;
-}
-#portfolio .homepage-paragraph > div {
-    flex: 1;
-}
-#portfolio .homepage-paragraph img {
-    height: 20vh;
+.none {
+    display: none;
 }
 .center {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
+
+/* Service */
+#service .center {
+    flex-direction: column;
+}
+.gray-background {
+    background-color: #1A1A1A;
+    color: white;
+}
+.homepage-title {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+}
+.homepage-title > img {
+    height: 1em;
+    width: 1em;
+    margin-bottom: -0.1em;
+    margin-right: 0.1em;
+}
+.headline {
+    font-size: 0.7em;
+    text-align: center;
+    font-family: adobe-caslon-pro-regular;
+    margin: 1em 15vw;
+    max-width: 600px;
+}
+.paragraph {
+    display: flex;
+    flex-direction: row;
+}
+#service .paragraph {
+    margin: 0vw 15vw;
+    max-width: 600px;
+}
+#service .paragraph {
+    font-size: 0.5em;
+    text-align: left;
+    font-family: adobe-caslon-pro-regular;
+}
+#service .paragraph > div {
+    margin: 1em;
+}
+.paragraph > div {
+    flex: 1;
+}
+
+
+/* Portfolio */
+#portfolio {
+    flex-direction: column;
+}
+#portfolio a {
+    color: white;
+}
+#portfolio .paragraph img {
+    height: 25vw;
+    opacity: 0.5;
+}
+#portfolio .paragraph > div {
+    margin: 0.5em;
+}
+.content {
+    position: absolute;
+    flex-direction: column;
+    height: 25vw;
+    width: 25vw;
+}
+#portfolio .paragraph {
+    margin-top: 8vh;
+}
+/* Our value */
 #value {
     flex-direction: column;
 }
+.value-image img {
+    height: 35vw;
+}
+.values img {
+    height: 15vh;
+}
+#value .values {
+    font-family: adobe-caslon-pro-regular;
+    font-size: 0.7em;
+    text-align: right;
+}
+.values > div {
+    border-bottom: 1px solid #999;
+    padding-left: 2em;
+    margin-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
 
+/* Contact */
+#contact {
+    font-size: 1.5em;
+    font-family: nexa-book;
+    text-transform: uppercase;
+}
+#contact img {
+    height: 25vh;
+    margin: 1.5em;
+}
+#contact {
+    flex-direction: column;
+    text-align: center;
+}
+#contact i {
+    margin-right: 1em;
+}
+.data {
+    text-align: left;
+}
+.footer {
+    font-family: nexa-regular;
+    position: absolute;
+    padding-top: 90vh;
+}
 /* Portfolio Page */
 #portfolio-page .homepage-title {
     display: flex;
