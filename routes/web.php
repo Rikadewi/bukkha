@@ -16,3 +16,9 @@ Route::get('/', function () {
 Route::get('/portfolio/1', function () {
     return view('portfolio.portfolio_1');
 });
+Route::get('/portfolio/2', function () {
+    return view('portfolio.portfolio_2');
+});
+Route::get('/portfolio/3', function () {
+    return view('portfolio.portfolio_3');
+});

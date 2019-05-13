@@ -59,7 +59,7 @@
             </a>
         </div>
         <div>
-            <a href = "/portfolio/1">
+            <a href = "/portfolio/2">
                 <div class = "content center">
                     <h5>Medium house</h5>
                     <h4>Renaissance</h4>
@@ -68,7 +68,7 @@
             </a>
         </div>
         <div>
-            <a href = "/portfolio/1">
+            <a href = "/portfolio/3">
                 <div class = "content center">
                     <h5>Epic house</h5>
                     <h4>Industry 4.0</h4>
