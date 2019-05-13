@@ -8,13 +8,16 @@
 </div>
 <section id = "portfolio-page">
     <div>
-        <div class = "shape-content center">
-            <h5>Normal House</h5>
-            <h4>Renaissance</h4>
-            <div class = "button">Read More</div>
+        <div class = "black-shape">
+            <div class = "shape-content center">
+                <h5>Normal House</h5>
+                <h4>Renaissance</h4>
+                <div class = "arrow">
+                    <a href="#detail-page"><i class="fas fa-angle-down"></i></a>
+                </div>
+            </div>
         </div>
-        <img src = "../img/shape.png">
-    </div>
+    <div>
 </section>
 <section id = "detail-page" class = "gray-background paragraph">
     <div></div>
