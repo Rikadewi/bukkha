@@ -1,5 +1,11 @@
 @extends('layout.app')
 @section('body')
+<div id = "menu" class = " black-background">
+    <div class = "menu-logo">
+        <a href = "/"><img src="../img/logo/logo2-white.png"></a>
+    </div>
+    <div style = "flex: 8"></div>
+</div>
 <section id = "portfolio-page">
     <div>
         <div class = "shape-content center">

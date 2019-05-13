@@ -1,16 +1,17 @@
 @extends('layout.app')
 @section('body')
-<section id = "home" class = "black-background">
-    <div id = "menu">
-        <div class = "menu-logo">
-            <img class = "none" src="img/logo/logo2-white.png">
-        </div>
-        <div style = "flex: 4"></div>
-        <div>Service</div>
-        <div>Portfolio</div>
-        <div>Our Value</div>
-        <div>Contact</div>
+<div id = "menu" class = " black-background">
+    <div class = "menu-logo">
+        <a href = "#home"><img id = "menu-img" src="../img/logo/logo2-white.png"></a>
     </div>
+    <div style = "flex: 4"></div>
+    <div><a href = "#service">Service</a></div>
+    <div><a href = "#portfolio">Portfolio</a></div>
+    <div><a href = "#value">Our Value</a></div>
+    <div><a href = "#contact">Contact</a></div>
+</div>
+
+<section id = "home" class = "black-background">
     <div id = "tagline" class = "center">
         <div>
             <img src = "img/logo/logo-white.png">

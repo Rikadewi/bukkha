@@ -64,19 +64,18 @@ h4 {
 h5 {
     font-family: nexa-book;
 }
-
-/* Home */
-.black-background {
-    background-color: black;
-    transition: 0.3s all;
-    color: white;
+a:hover {
+    text-decoration: none;
 }
+/* Menu Bar */
 #menu {
     font-family: nexa-regular;
-    font-size: 0.7em;
+    font-size: 1.5em;
     color: white;
     display: flex;
-    height: 5vh;
+    position: fixed;
+    padding: 1.5vh;
+    width: 100%;
 }
 #menu > div {
     flex: 1;
@@ -87,6 +86,15 @@ h5 {
 }
 .menu-logo img {
     height:5vh;
+}
+/* Home */
+.black-background {
+    background-color: black;
+    transition: 0.3s all;
+    color: white;
+}
+.black-background a {
+    color: white;
 }
 #tagline {
     font-family: adobe-caslon-pro-regular;
@@ -109,8 +117,11 @@ h5 {
 .arrow a {
     color: white;
 }
-.change-background-color {
+.white-background {
     background-color: white;
+}
+.white-background a {
+    color: black;
 }
 .none {
     display: none;
@@ -138,7 +149,7 @@ h5 {
 .homepage-title > img {
     height: 1em;
     width: 1em;
-    margin-bottom: -0.1em;
+    margin-top: -0.2em;
     margin-right: 0.3em;
 }
 .headline {
