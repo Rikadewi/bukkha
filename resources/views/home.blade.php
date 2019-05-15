@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('body')
 <div id = "menu" class = " black-background">
-    <div class = "menu-logo">
+    <div class = "menu-logo none">
         <a href = "#home"><img id = "menu-img" src="../img/logo/logo2-white.png"></a>
     </div>
     <div style = "flex: 4"></div>
