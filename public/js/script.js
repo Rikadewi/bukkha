@@ -1,6 +1,6 @@
 $(function() {
    // Change menu bar background color
-   $(window).scroll(function () {
+   $(window).scroll(function scrolling() {
       var positionService = $('#service').offset().top - 100;
       var positionPortfolio = $('#portfolio').offset().top - 1; 
       var positionValue = $('#value').offset().top - 1;
@@ -25,4 +25,13 @@ $(function() {
          $('#menu-img').attr('src', 'img/logo/logo2-white.png');
       }
    });
+
+   $('#fullpage').fullpage({
+		// //options here
+		// autoScrolling:true,
+      // scrollHorizontally: true
+      anchors: ['homePage', 'servicePage', 'portfolioPage', 'valuePage', 'contactPage'],
+   });
+   
+   
  });

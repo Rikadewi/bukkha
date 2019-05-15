@@ -37,7 +37,7 @@
 html {
     scroll-behavior: smooth;
 }
-section {
+.section {
     background-color: white;
     height: 100vh;
     color: black;
@@ -76,6 +76,8 @@ a:hover {
     position: fixed;
     padding: 1.5vh;
     width: 100%;
+
+		z-index:9;
 }
 #menu > div {
     flex: 1;
@@ -181,7 +183,7 @@ a:hover {
 
 
 /* Portfolio */
-#portfolio {
+#portfolio .center {
     flex-direction: column;
 }
 #portfolio a {
@@ -207,7 +209,7 @@ a:hover {
     margin-top: 8vh;
 }
 /* Our value */
-#value {
+#value .center {
     flex-direction: column;
 }
 .value-image img {
@@ -239,7 +241,7 @@ a:hover {
     height: 25vh;
     margin: 1.5em;
 }
-#contact {
+#contact .center{
     flex-direction: column;
     text-align: center;
 }
