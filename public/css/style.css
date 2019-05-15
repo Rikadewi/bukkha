@@ -262,7 +262,7 @@ a:hover {
     margin-left: 10vw;
     background: rgba(0, 0, 0, 0.7);
 }
-#portfolio-page {
+#portfolio-page .background{
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -270,16 +270,7 @@ a:hover {
     padding: 0px;
     color: white;
 }
-.one {
-    background-image: url("../img/house/1/front.jpg");
-}
-.two {
-    background-image: url("../img/house/2/front.jpg");
-}
-.three {
-    background-image: url("../img/house/3/front.jpg");
-}
-#portfolio-page > div {
+#portfolio-page .insection {
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.2);

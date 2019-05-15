@@ -30,8 +30,6 @@ $(function() {
 		// //options here
 		// autoScrolling:true,
       // scrollHorizontally: true
-      anchors: ['homePage', 'servicePage', 'portfolioPage', 'valuePage', 'contactPage'],
+      anchors: ['homeSection', 'serviceSection', 'portfolioSection', 'valueSection', 'contactSection'],
    });
-   
-   
  });

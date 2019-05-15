@@ -16,16 +16,7 @@
         <link rel="stylesheet" type="text/css" href="../css/style.css">
     </head>
     <body>
-        <div id = "menu" class = "black-background">
-            <div class = "menu-logo none">
-                <a href = "#home"><img id = "menu-img" src="../img/logo/logo2-white.png"></a>
-            </div>
-            <div style = "flex: 4"></div>
-            <div><a href = "#servicePage">Service</a></div>
-            <div><a href = "#portfolioPage">Portfolio</a></div>
-            <div><a href = "#valuePage">Our Value</a></div>
-            <div><a href = "#contactPage">Contact</a></div>
-        </div>
+        @yield('menu')
         <div id = "fullpage">
             @yield('body')
         </div>
@@ -33,6 +24,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <!-- Script -->
         <script type="text/javascript" src="../js/fullpage.js"></script>
-        <script src="../js/script.js"></script>
+        @yield('script')
     </body>
 </html>

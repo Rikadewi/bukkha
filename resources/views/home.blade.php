@@ -1,4 +1,17 @@
 @extends('layout.app')
+@section('menu')
+<div id = "menu" class = "black-background">
+    <div class = "menu-logo none">
+        <a href = "#home"><img id = "menu-img" src="../img/logo/logo2-white.png"></a>
+    </div>
+    <div style = "flex: 4"></div>
+    <div><a href = "#serviceSection">Service</a></div>
+    <div><a href = "#portfolioSection">Portfolio</a></div>
+    <div><a href = "#valueSection">Our Value</a></div>
+    <div><a href = "#contactSection">Contact</a></div>
+</div>
+@endsection
+
 @section('body')
 <div id = "home" class = "black-background section" >
     <div class = "slide">
@@ -11,7 +24,7 @@
             </div>
         </div>
         <div class = "arrow">
-            <a href="#servicePage"><i class="fas fa-angle-down"></i></a>
+            <a href="#serviceSection"><i class="fas fa-angle-down"></i></a>
         </div>
     </div>
     <div class = "slide">
@@ -162,4 +175,8 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section('script')
+<script src="../js/script.js"></script>
 @endsection
