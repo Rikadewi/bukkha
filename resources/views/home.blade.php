@@ -1,16 +1,63 @@
 @extends('layout.app')
 @section('body')
 <div id = "home" class = "black-background section" >
-    <div id = "tagline" class = "center">
-        <div>
-            <img src = "img/logo/logo-white.png">
+    <div class = "slide">
+        <div id = "tagline" class = "center">
+            <div>
+                <img src = "img/logo/logo-white.png">
+            </div>
+            <div class = "none">
+                Redefining Living
+            </div>
         </div>
-        <div class = "none">
-            Redefining Living
+        <div class = "arrow">
+            <a href="#servicePage"><i class="fas fa-angle-down"></i></a>
         </div>
     </div>
-    <div class = "arrow">
-        <a href="#servicePage"><i class="fas fa-angle-down"></i></a>
+    <div class = "slide">
+        <div id = "portfolio-page" class = "one">
+            <div>
+                <div class = "black-shape">
+                    <div class = "shape-content center">
+                        <h5>Normal House</h5>
+                        <h4>Contemporer</h4>
+                        <div class = "arrow">
+                            <a href="#detail-page"><i class="fas fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "slide">
+        <div id = "portfolio-page" class = "two">
+            <div>
+                <div class = "black-shape">
+                    <div class = "shape-content center">
+                        <h5>Normal House</h5>
+                        <h4>Contemporer</h4>
+                        <div class = "arrow">
+                            <a href="#detail-page"><i class="fas fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "slide">
+        <div id = "portfolio-page" class = "three">
+            <div>
+                <div class = "black-shape">
+                    <div class = "shape-content center">
+                        <h5>Normal House</h5>
+                        <h4>Contemporer</h4>
+                        <div class = "arrow">
+                            <a href="#detail-page"><i class="fas fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

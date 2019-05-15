@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-    <div>
+    </div>
 </section>
 <section id = "detail-page" class = "gray-background paragraph">
     <div></div>
