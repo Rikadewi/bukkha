@@ -4,5 +4,6 @@ $(function() {
 		// autoScrolling:true,
       // scrollHorizontally: true
       anchors: ['portfolioPageSection', 'detailPageSection'],
-   });
+      slidesNavigation: 'true',
+   });   
  });

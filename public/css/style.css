@@ -132,6 +132,14 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+#home ul li a span {
+    background: white;
+}
+#home ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Service */
 #service .center {
@@ -285,6 +293,14 @@ a:hover {
 }
 #portfolio-page h4,h5 {
     font-size: 0.8em;
+}
+#portfolio-page ul li a span {
+    background: white;
+}
+#portfolio-page ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Detail Page */

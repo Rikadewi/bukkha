@@ -13,7 +13,7 @@
 
 <div id = "portfolio-page" class = "section">
     <div class = "slide">
-        <div class = "background one" style = "">
+        <div class = "background one">
             <div class = "insection">
                 <div class = "black-shape">
                     <div class = "shape-content center">

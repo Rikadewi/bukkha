@@ -23,7 +23,7 @@
                 Redefining Living
             </div>
         </div>
-        <div class = "arrow">
+        <div class = "arrow none">
             <a href="#serviceSection"><i class="fas fa-angle-down"></i></a>
         </div>
     </div>

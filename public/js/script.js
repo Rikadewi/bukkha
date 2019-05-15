@@ -27,9 +27,8 @@ $(function() {
    });
 
    $('#fullpage').fullpage({
-		// //options here
-		// autoScrolling:true,
-      // scrollHorizontally: true
+		//options here
       anchors: ['homeSection', 'serviceSection', 'portfolioSection', 'valueSection', 'contactSection'],
+      slidesNavigation: 'true',
    });
  });
