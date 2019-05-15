@@ -13,8 +13,8 @@
 @endsection
 
 @section('body')
-<div id = "home" class = "black-background section" >
-    <div class = "slide">
+<div id = "home" class = "center black-background section" >
+    <div class = "static">
         <div id = "tagline" class = "center">
             <div>
                 <img src = "img/logo/logo-white.png">
@@ -28,48 +28,20 @@
         </div>
     </div>
     <div class = "slide">
-        <div id = "portfolio-page" class = "one">
-            <div>
-                <div class = "black-shape">
-                    <div class = "shape-content center">
-                        <h5>Normal House</h5>
-                        <h4>Contemporer</h4>
-                        <div class = "arrow">
-                            <a href="#detail-page"><i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    </div>
+    <div class = "slide">
+        <div class = "background" style = "background-image: url('../img/house/1/front.jpg');">
+            <div class = "insection"></div>
         </div>
     </div>
     <div class = "slide">
-        <div id = "portfolio-page" class = "two">
-            <div>
-                <div class = "black-shape">
-                    <div class = "shape-content center">
-                        <h5>Normal House</h5>
-                        <h4>Contemporer</h4>
-                        <div class = "arrow">
-                            <a href="#detail-page"><i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class = "background" style = "background-image: url('../img/house/2/front.jpg');">
+            <div class = "insection"></div>
         </div>
     </div>
     <div class = "slide">
-        <div id = "portfolio-page" class = "three">
-            <div>
-                <div class = "black-shape">
-                    <div class = "shape-content center">
-                        <h5>Normal House</h5>
-                        <h4>Contemporer</h4>
-                        <div class = "arrow">
-                            <a href="#detail-page"><i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class = "background" style = "background-image: url('../img/house/3/front.jpg');">
+            <div class = "insection"></div>
         </div>
     </div>
 </div>

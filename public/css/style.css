@@ -140,6 +140,10 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+.static {
+    position: absolute;
+    z-index: 9;
+}
 
 /* Service */
 #service .center {
@@ -265,20 +269,22 @@ a:hover {
 }
 /* Portfolio Page */
 .black-shape {
+    position: absolute;
+    z-index: 9;
     width: 40vh;
     height: 100vh;
     margin-left: 10vw;
     background: rgba(0, 0, 0, 0.7);
+    color: white;
 }
-#portfolio-page .background{
+.background{
     background-position: center;
     background-size: cover;
     height: 100vh;
     width: 100vw;
     padding: 0px;
-    color: white;
 }
-#portfolio-page .insection {
+.insection {
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.2);

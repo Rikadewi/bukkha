@@ -12,60 +12,32 @@
 @yield('style')
 
 <div id = "portfolio-page" class = "section">
+    <div class = "black-shape">
+        <div class = "shape-content center">
+            @yield('title')
+            <div class = "arrow">
+                <a href="#detailPageSection"><i class="fas fa-angle-down"></i></a>
+            </div>
+        </div>
+    </div>
     <div class = "slide">
         <div class = "background one">
-            <div class = "insection">
-                <div class = "black-shape">
-                    <div class = "shape-content center">
-                        @yield('title')
-                        <div class = "arrow">
-                            <a href="#detailPageSection"><i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class = "insection"></div>
         </div>
     </div>
     <div class = "slide">
         <div class = "background two">
-            <div class = "insection">
-                <div class = "black-shape">
-                    <div class = "shape-content center">
-                        @yield('title')
-                        <div class = "arrow">
-                            <a href="#detailPageSection"><i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class = "insection"></div>
         </div>
     </div>
     <div class = "slide">
         <div class = "background three">
-            <div class = "insection">
-                <div class = "black-shape">
-                    <div class = "shape-content center">
-                        @yield('title')
-                        <div class = "arrow">
-                            <a href="#detailPageSection"><i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class = "insection"></div>
         </div>
     </div>
     <div class = "slide">
         <div class = "background four">
-            <div class = "insection">
-                <div class = "black-shape">
-                    <div class = "shape-content center">
-                        @yield('title')
-                        <div class = "arrow">
-                            <a href="#detailPageSection"><i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class = "insection"></div>
         </div>
     </div>
 </div>
