@@ -75,8 +75,7 @@ a:hover {
     position: fixed;
     padding: 1.5vh;
     width: 100%;
-
-		z-index:9;
+    z-index:9;
 }
 #menu > div {
     flex: 1;
@@ -87,6 +86,14 @@ a:hover {
 }
 .menu-logo img {
     height:5vh;
+}
+#menu .menu-filler {
+    flex: 1;
+}
+@media only screen and (max-width: 992px) {
+    #menu .menu-filler {
+        flex: 0;
+    }   
 }
 /* Home */
 .black-background {

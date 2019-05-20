@@ -1,10 +1,10 @@
 @extends('layout.app')
 @section('menu')
 <div id = "menu" class = "black-background">
-    <div class = "menu-logo none">
-        <a href = "#home"><img id = "menu-img" src="../img/logo/logo2-white.png"></a>
+    <div class = "menu-logo">
+        <a href = "#home"><img id = "menu-img" src="../img/logo/logo2-black.png"></a>
     </div>
-    <div style = "flex: 4"></div>
+    <div class = "menu-filler"></div>
     <div><a href = "#serviceSection">Service</a></div>
     <div><a href = "#portfolioSection">Portfolio</a></div>
     <div><a href = "#valueSection">Our Value</a></div>
