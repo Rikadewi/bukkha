@@ -130,7 +130,7 @@ a:hover {
         display: none;
     }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 566px) {
     #menu {
         display: none;
     }
@@ -257,7 +257,7 @@ a:hover {
 .paragraph > div {
     flex: 1;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 566px) {
     #service .paragraph {
         font-size: 0.4em;
     }
@@ -292,7 +292,7 @@ a:hover {
 #portfolio .paragraph {
     margin-top: 8vh;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 566px) {
     #portfolio .paragraph {
         flex-direction: column;
     }
@@ -337,7 +337,8 @@ a:hover {
     text-transform: uppercase;
 }
 #contact img {
-    height: 25vh;
+    max-height: 25vh;
+    max-width: 5v6w;
     margin: 1.5em;
 }
 #contact .center{
@@ -354,6 +355,11 @@ a:hover {
     font-family: nexa-regular;
     position: absolute;
     padding-top: 90vh;
+}
+@media only screen and (max-width: 566px) {
+    #contact {
+        font-size: 1em;
+    }
 }
 /* Portfolio Page */
 .black-shape {
@@ -399,7 +405,11 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
-
+@media only screen and (max-width: 768px) {
+    .black-shape {
+        width: 20vw;
+    }
+}
 /* Detail Page */
 #detail-page .paragraph > div {
     flex: 1;
@@ -410,4 +420,20 @@ a:hover {
 }
 #detail-page h3 {
     font-size: 0.6em;
+}
+@media only screen and (max-width: 768px) {
+    #detail-page h3 {
+        font-size: 0.5em;
+    }
+}
+@media only screen and (max-width: 576px) {
+    #detail-page h3 {
+        font-size: 0.5em;
+    }
+    #detail-page .paragraph {
+        display: block;
+    }
+    .detail div {
+        margin-left: 2em;
+    }
 }
