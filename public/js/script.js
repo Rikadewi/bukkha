@@ -3,7 +3,6 @@ $(function() {
 		//options here
       anchors: ['homeSection', 'serviceSection', 'portfolioSection', 'valueSection', 'contactSection'],
       slidesNavigation: 'true',
-   
       afterLoad: function(origin, destination, direction){
          //display bukkha menu
          if(origin.anchor == 'homeSection' && direction == 'down'){

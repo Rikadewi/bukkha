@@ -166,7 +166,8 @@ a:hover {
     margin-top: -10vh;
 }
 #tagline img {
-    height: 30vh;
+    max-height: 30vh;
+    max-width: 70vw;
     margin: 10px;
 }
 #home .arrow {
@@ -203,7 +204,12 @@ a:hover {
     position: absolute;
     z-index: 9;
 }
-
+.fp-controlArrow.fp-next {
+    border-color: transparent;
+} 
+.fp-controlArrow.fp-prev {
+    border-color: transparent;
+} 
 /* Service */
 #service .center {
     flex-direction: column;
@@ -217,11 +223,12 @@ a:hover {
     align-items: center;
     font-size: 2em;
     text-align: center;
+    font-family: kiona-regular;
 }
 .homepage-title > img {
     height: 1em;
     width: 1em;
-    margin-top: -0.2em;
+    margin-bottom: -0.2em;
     margin-right: 0.3em;
 }
 .headline {
@@ -250,7 +257,14 @@ a:hover {
 .paragraph > div {
     flex: 1;
 }
-
+@media only screen and (max-width: 576px) {
+    #service .paragraph {
+        font-size: 0.4em;
+    }
+    .headline {
+        font-size: 0.5em;
+    }
+}
 
 /* Portfolio */
 #portfolio .center {
@@ -269,7 +283,7 @@ a:hover {
     position: absolute;
     flex-direction: column;
     height: 25vw;
-    width: 25vw;
+    width: 25vw;    
     background: rgba(0, 0, 0, 0.7);
 }
 .content:hover {
@@ -277,6 +291,21 @@ a:hover {
 }
 #portfolio .paragraph {
     margin-top: 8vh;
+}
+@media only screen and (max-width: 576px) {
+    #portfolio .paragraph {
+        flex-direction: column;
+    }
+    .content, #portfolio .paragraph img {
+        min-height: 23vh;
+        min-width: 23vh;
+    }
+    #portfolio .paragraph {
+        margin-top: 0vh;
+    }
+    h4, h5 {
+        font-size: 0.4em;
+    }
 }
 /* Our value */
 #value .center {
@@ -356,7 +385,10 @@ a:hover {
     width: 40vh;
     height: 70vh;
 }
-#portfolio-page h4,h5 {
+#portfolio-page h4 {
+    font-size: 0.8em;
+}
+#portfolio-page h5 {
     font-size: 0.8em;
 }
 #portfolio-page ul li a span {
