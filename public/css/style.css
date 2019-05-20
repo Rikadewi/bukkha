@@ -90,10 +90,62 @@ a:hover {
 #menu .menu-filler {
     flex: 1;
 }
+/* Collapsed Menu */
+/* .menu-burger img {
+    height: 2em;
+    margin: -7px;
+}
+.menu-burger {
+    display: none;
+}
+#collapsed.collapse.in {
+    display: flex;
+}
+#collapsed.collapse {
+    display: none;
+}
+#collapsed {
+    position: fixed;
+    z-index: 9;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+#collapsed > div {
+    flex: 1;
+}
+#collapsed a{
+    color: white;
+    font-family: nexa-regular;
+    font-size: 1.5em;
+} */
 @media only screen and (max-width: 992px) {
     #menu .menu-filler {
         flex: 0;
     }   
+    #menu .menu-logo {
+        display: none;
+    }
+}
+@media only screen and (max-width: 576px) {
+    #menu {
+        display: none;
+    }
+    /* #menu > div{
+        display: none;
+    } */
+    /* #menu .menu-filler {
+        display: block;
+        flex: 8;
+    }
+    #menu .menu-burger {
+        display: block;
+        flex: 1;
+    } */
+    
 }
 /* Home */
 .black-background {

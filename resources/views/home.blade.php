@@ -2,14 +2,23 @@
 @section('menu')
 <div id = "menu" class = "black-background">
     <div class = "menu-logo">
-        <a href = "#home"><img id = "menu-img" src="../img/logo/logo2-black.png"></a>
+        <a href = "#homeSection"><img id = "menu-img" src="../img/logo/logo2-black.png"></a>
     </div>
     <div class = "menu-filler"></div>
     <div><a href = "#serviceSection">Service</a></div>
     <div><a href = "#portfolioSection">Portfolio</a></div>
     <div><a href = "#valueSection">Our Value</a></div>
     <div><a href = "#contactSection">Contact</a></div>
+    <!-- <div class = "menu-burger" data-toggle = "collapse" data-target = "#collapsed">
+        <img src = "../img/icon/burger-black.png">
+    </div> -->
 </div>
+<!-- <div id = "collapsed" class = "collapse">
+    <div class = "center" data-toggle = "collapse" data-target = "#collapsed"><a href = "#serviceSection">Service</a></div>
+    <div class = "center" data-toggle = "collapse" data-target = "#collapsed"><a href = "#portfolioSection">Portfolio</a></div>
+    <div class = "center" data-toggle = "collapse" data-target = "#collapsed"><a href = "#valueSection">Our Value</a></div>
+    <div class = "center" data-toggle = "collapse" data-target = "#collapsed"><a href = "#contactSection">Contact</a></div>
+</div> -->
 @endsection
 
 @section('body')
