@@ -4,11 +4,6 @@ $(document).ready(function() {
       anchors: ['homeSection', 'serviceSection', 'portfolioSection', 'valueSection', 'contactSection'],
       slidesNavigation: 'true',
       afterLoad: function(origin, destination, direction){
-         //display bukkha menu
-         if(origin.anchor == 'homeSection' && direction == 'down'){
-            $('.menu-logo').removeClass('none');
-         }
-
          //change menu bar color
          if (direction == 'down'){
             if(destination.anchor == 'homeSection' || destination.anchor == 'portfolioSection' || destination.anchor == 'contactSection'){
