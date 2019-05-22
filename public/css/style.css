@@ -257,7 +257,7 @@ a:hover {
 .paragraph > div {
     flex: 1;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
     #service .paragraph {
         font-size: 0.4em;
     }
@@ -266,6 +266,17 @@ a:hover {
     }
     .homepage-title {
         font-size: 1.5em;
+    }
+}
+@media only screen and (max-width: 576px) {
+    #service .paragraph {
+        font-size: 0.35em;
+    }
+    .headline {
+        font-size: 0.4em;
+    }
+    .homepage-title {
+        font-size: 1.2em;
     }
 }
 
@@ -338,6 +349,9 @@ a:hover {
     .values > div {
         padding-left: 0px;
         margin-left: 0px;
+    }
+    #value .values {
+        font-size: 0.6em;
     }
 }
 
