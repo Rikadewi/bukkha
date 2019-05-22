@@ -257,14 +257,18 @@ a:hover {
 .paragraph > div {
     flex: 1;
 }
-@media only screen and (max-width: 566px) {
+@media only screen and (max-width: 576px) {
     #service .paragraph {
         font-size: 0.4em;
     }
     .headline {
         font-size: 0.5em;
     }
+    .homepage-title {
+        font-size: 1.5em;
+    }
 }
+
 
 /* Portfolio */
 #portfolio .center {
@@ -315,7 +319,8 @@ a:hover {
     height: 35vw;
 }
 .values img {
-    height: 15vh;
+    max-height: 15vh;
+    max-width: 10vw;
 }
 #value .values {
     font-family: adobe-caslon-pro-regular;
@@ -328,6 +333,12 @@ a:hover {
     margin-left: 1em;
     padding-top: 1em;
     padding-bottom: 0.5em;
+}
+@media only screen and (max-width: 576px) {
+    .values > div {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
 }
 
 /* Contact */
@@ -406,8 +417,16 @@ a:hover {
     justify-content: center;
 }
 @media only screen and (max-width: 768px) {
+    .shape-content {
+        width: 100vw;
+        height: auto;
+    }
     .black-shape {
-        width: 20vw;
+        width: 100vw;
+        height: 5em;
+        margin-left: 0px;
+        bottom: 10vh;
+        padding: 1em 0px;
     }
 }
 /* Detail Page */
