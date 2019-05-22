@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
    $('#fullpage').fullpage({
 		//options here
       anchors: ['homeSection', 'serviceSection', 'portfolioSection', 'valueSection', 'contactSection'],
@@ -42,4 +42,7 @@ $(function() {
          }
       },
    });
+   $(document).on('load', setInterval(function(){
+      fullpage_api.moveSlideRight();
+   },3000));
  });

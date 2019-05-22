@@ -5,5 +5,8 @@ $(function() {
       // scrollHorizontally: true
       anchors: ['portfolioPageSection', 'detailPageSection'],
       slidesNavigation: 'true',
-   });   
+   });
+   $(document).on('load', setInterval(function(){
+      fullpage_api.moveSlideRight();
+   },3000));
  });
