@@ -1,6 +1,7 @@
 @extends('layout.app')
 @section('menu')
 <div id = "menu" class = "black-background">
+    <div class = "menu-filler-corner"></div>
     <div class = "menu-logo">
         <a href = "#homeSection"><img id = "menu-img" src="../img/logo/logo2-black.png"></a>
     </div>
@@ -9,6 +10,7 @@
     <div><a href = "#portfolioSection">Portfolio</a></div>
     <div><a href = "#valueSection">Our Value</a></div>
     <div><a href = "#contactSection">Contact</a></div>
+    <div class = "menu-filler-corner"></div>
     <!-- <div class = "menu-burger" data-toggle = "collapse" data-target = "#collapsed">
         <img src = "../img/icon/burger-black.png">
     </div> -->
@@ -113,7 +115,7 @@
 
 <div id = "value" class = "section">
     <div class = "center">
-        <div class = "homepage-title">
+        <div id = "overflown-homepage-title" class = "homepage-title">
             <img src = "img/logo/arrow-black.png"> OUR VALUE
         </div>
         <div class = "paragraph">

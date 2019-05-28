@@ -68,12 +68,12 @@ a:hover {
 }
 /* Menu Bar */
 #menu {
-    font-family: nexa-regular;
-    font-size: 1.5em;
+    font-family: kiona-regular;
+    font-size: 1em;
     color: white;
     display: flex;
     position: fixed;
-    padding: 1.5vh;
+    padding: 1vh;
     width: 100%;
     z-index:9;
 }
@@ -82,10 +82,13 @@ a:hover {
     text-align: center;
 }
 #menu .menu-logo {
-    flex: 3;
+    flex: 1;
+}
+#menu .menu-filler-corner {
+    flex: 1;
 }
 .menu-logo img {
-    height:5vh;
+    height:3vh;
 }
 #menu .menu-filler {
     flex: 1;
@@ -167,7 +170,7 @@ a:hover {
 }
 #tagline img {
     max-height: 30vh;
-    max-width: 70vw;
+    max-width: 50vw;
     margin: 10px;
 }
 #home .arrow {
@@ -221,7 +224,7 @@ a:hover {
 .homepage-title {
     display: flex;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.6em;
     text-align: center;
     font-family: kiona-regular;
 }
@@ -265,7 +268,7 @@ a:hover {
         font-size: 0.5em;
     }
     .homepage-title {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 }
 @media only screen and (max-width: 576px) {
@@ -276,7 +279,7 @@ a:hover {
         font-size: 0.4em;
     }
     .homepage-title {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
@@ -406,7 +409,7 @@ a:hover {
 .insection {
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
 }
 #portfolio-page .center {
     flex-direction: column;
