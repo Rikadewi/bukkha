@@ -120,20 +120,20 @@
         </div>
         <div class = "paragraph">
             <div class = "value-image center">
-                <img src = "img/house/sketch.jpg">
+                <img src = "img/value/house.png">
             </div>
             <div class = "values">
                 <div>
                     <img src = "img/value/1.png">
-                    <br>Execellent Goal
+                    <br>Hassle Free
                 </div>
                 <div>
                     <img src = "img/value/2.png">
-                    <br>Extraoradinary Idea
+                    <br>Good Design
                 </div>
                 <div>
                     <img src = "img/value/3.png">
-                    <br>Extra Icon
+                    <br>Challenge the status quo
                 </div>
             </div>
         </div>
@@ -146,12 +146,16 @@
             <img src = "img/logo/logo-white.png">
         </div>
         <div class = "data">
-            <div>
-                <i class="fas fa-envelope"></i>hezky@bukkha.com
-            </div>
-            <div>
-                <i class="fas fa-phone"></i>+62 812 8591 1718
-            </div>
+            <a href="mailto:hello@bukkha.com">
+                <div>
+                    <i class="fas fa-envelope"></i>hello@bukkha.com
+                </div>
+            </a>
+            <a href="tel:+6282211511517">
+                <div>
+                    <i class="fas fa-phone"></i>+62 822 115 115 17
+                </div>
+            </a>
         </div>
         <div class = "footer">
             &copy Bukkha 2019
