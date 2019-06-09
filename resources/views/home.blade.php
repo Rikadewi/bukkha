@@ -1,4 +1,8 @@
 @extends('layout.app')
+@section('title')
+Bukkha
+@endsection
+
 @section('menu')
 <div id = "menu" class = "black-background">
     <div class = "menu-filler-corner"></div>

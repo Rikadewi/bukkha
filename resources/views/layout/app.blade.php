@@ -1,10 +1,22 @@
-<!doctype html>
+<!DOCTYPE html PUBLIC 
+"-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
 <html>
     <head>
+    
+        <title>@yield('title')</title>
+        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Bukkha design and build." data-rdm="true">
+
+        <meta property="og:title" content="Bukkha">
+        <meta property="og:site_name" content="Bukkha">
+        <meta property="og:desription" content="Bukkha design and build.">
+        <meta property="og:type" content="business">
+        <meta property="og:url" content="http://bukkha.com">
+        <meta property="og:image" content="https://bukkha.com/img/logo/arrow-black.png">
+
         
-        <title>Bukkha</title>
         <link rel="icon" type="image/ico" href="../img/logo/arrow-black.png" />
         
         <!--Font-->

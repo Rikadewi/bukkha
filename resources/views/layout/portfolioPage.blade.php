@@ -1,4 +1,8 @@
 @extends('layout.app')
+@section('title')
+Bukkha
+@endsection
+
 @section('menu')
 <div id = "menu" class = " black-background" style = "display: flex">
 <div style = "flex: 1"></div>
