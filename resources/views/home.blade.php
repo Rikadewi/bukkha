@@ -66,7 +66,7 @@ Bukkha
         <div class = "homepage-title">
             <img src = "img/logo/arrow-black.png"> SERVICE
         </div>
-        <div class = "headline">
+        <!-- <div class = "headline">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id alias provident ipsa quibusdam aspernatur. Laudantium nihil voluptates ratione cupiditate sint debitis reprehenderit nam laboriosam. Nam alias vero soluta dignissimos recusandae!     
         </div>
         <div class = "paragraph">
@@ -76,6 +76,37 @@ Bukkha
             <div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a porro repudiandae dolore odio sint facere mollitia explicabo saepe tenetur sed officia quibusdam, amet dignissimos quos eos cumque corrupti! Necessitatibus.
             </div>
+        </div> -->
+        <i class="fa fa-quote-right"></i>
+        <div class="typewriter">
+            <h1>We help you design, construct, and maintain your dream.</h1>
+        </div>
+        <div class="paragraph center">
+            <div>
+                <div class="title">
+                    Design
+                </div>
+                <div class="description">
+                    We design your building based on the concept you want, develop it with creative and innovative ideas, and we will provide you with every detail you need to build it.
+                </div>
+            </div>
+            <div>
+                <div class="title">
+                    Construction
+                </div>
+                <div class="description">
+                    We build your home, office, or any other building type with the best method possible. 
+                </div>
+            </div>
+            <div>
+                <div class="title">
+                    Maintenance
+                </div>
+                <div class="description">
+                    Your building maintenance is guaranteed under our responsibility.
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

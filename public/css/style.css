@@ -3,18 +3,6 @@
     src: url("../font/kiona-regular.ttf");
 }
 @font-face {
-    font-family: "berthold-header";
-    src: url("../font/berthold-header.otf");
-}
-@font-face {
-    font-family: "berthold-title";
-    src: url("../font/berthold-title.ttf");
-}
-@font-face {
-    font-family: "berthold-paragraph";
-    src: url("../font/berthold-paragraph.otf");
-}
-@font-face {
     font-family: "nexa-regular";
     src: url("../font/nexa-x/NexaBold.otf");
 }
@@ -133,6 +121,11 @@ a:hover {
         display: none;
     }
 }
+@media only screen and (max-width: 768px) {
+    #menu .menu-filler-corner {
+        flex: 0;
+    }   
+}
 @media only screen and (max-width: 566px) {
     #menu {
         display: none;
@@ -234,17 +227,81 @@ a:hover {
     margin-bottom: -0.2em;
     margin-right: 0.3em;
 }
-.headline {
+#service .paragraph.center {
+    flex-direction: row;
+    align-items: flex-start;
+}
+#service .paragraph {
+    max-width: 1000px;
+}
+#service .paragraph > div {
+    flex: 1;
+    padding: 1em;
+    text-align: center;
+}
+.title {
+    border-bottom: 1px solid #999;
+    font-size: 1em;
+    margin: 1em;
+}
+.description {
+    font-size: 0.5em;
+}
+#service h1 {
+    font-family: adobe-caslon-pro-regular;
+    font-size: 0.7em;
+}
+.typewriter, #service i {
+    margin: 1em;
+}
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid black; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret 0.75s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+}
+@media only screen and (max-width: 992px) {
+    #service .paragraph > div {
+        padding: 0.2em;
+    }
+    .typewriter h1 {
+        letter-spacing: 0.1em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .typewriter {
+        display: none;
+    }
+    #service .paragraph.center {
+        flex-direction: column;
+        align-items: center;
+    }
+    #service .paragraph {
+        max-width: 500px;
+    }
+}
+/* .headline {
     font-size: 0.7em;
     text-align: center;
     font-family: adobe-caslon-pro-regular;
     margin: 1em 15vw;
     max-width: 600px;
 }
-.paragraph {
-    display: flex;
-    flex-direction: row;
-}
+
 #service .paragraph {
     margin: 0vw 15vw;
     max-width: 600px;
@@ -257,9 +314,7 @@ a:hover {
 #service .paragraph > div {
     margin: 1em;
 }
-.paragraph > div {
-    flex: 1;
-}
+
 @media only screen and (max-width: 768px) {
     #service .paragraph {
         font-size: 0.4em;
@@ -281,7 +336,7 @@ a:hover {
     .homepage-title {
         font-size: 1em;
     }
-}
+} */
 
 
 /* Portfolio */
@@ -326,6 +381,13 @@ a:hover {
     }
 }
 /* Our value */
+.paragraph {
+    display: flex;
+    flex-direction: row;
+}
+.paragraph > div {
+    flex: 1;
+} 
 #value .center {
     flex-direction: column;
 }
@@ -399,7 +461,7 @@ a:hover {
     background: rgba(0, 0, 0, 0.7);
     color: white;
 }
-.background{
+.background {
     background-position: center;
     background-size: cover;
     height: 100vh;
