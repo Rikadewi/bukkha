@@ -161,14 +161,17 @@ Bukkha
                 <div>
                     <img src = "img/value/1.png">
                     <br>Hassle Free
+                    <h2>From legal issues to maintenance, we help you to do it</h2>
                 </div>
                 <div>
                     <img src = "img/value/2.png">
                     <br>Good Design
+                    <h2>Our design based on energy efficiency and sustainable approach, with innovative thinking</h2>
                 </div>
                 <div>
                     <img src = "img/value/3.png">
                     <br>Challenge the status quo
+                    <h2>never limit how design could be approached, find new ways to build and much more</h2>
                 </div>
             </div>
         </div>

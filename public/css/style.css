@@ -126,7 +126,7 @@ a:hover {
         flex: 0;
     }   
 }
-@media only screen and (max-width: 566px) {
+@media only screen and (max-width: 576px) {
     #menu {
         display: none;
     }
@@ -295,7 +295,7 @@ a:hover {
         margin: 0 1em;
     }
 }
-@media only screen and (max-width: 566px) {
+@media only screen and (max-width: 576px) {
     .title {
         margin: 0.3em 0 0 0;
     }
@@ -378,7 +378,7 @@ a:hover {
 #portfolio .paragraph {
     margin-top: 8vh;
 }
-@media only screen and (max-width: 566px) {
+@media only screen and (max-width: 576px) {
     #portfolio .paragraph {
         flex-direction: column;
     }
@@ -409,7 +409,6 @@ a:hover {
 }
 .values img {
     max-height: 15vh;
-    max-width: 10vw;
 }
 #value .values {
     font-family: adobe-caslon-pro-regular;
@@ -419,14 +418,28 @@ a:hover {
 .values > div {
     border-bottom: 1px solid #999;
     padding-left: 2em;
-    margin-left: 1em;
     padding-top: 1em;
     padding-bottom: 0.5em;
+    max-width: 400px;
+}
+#value h2 {
+    font-family: adobe-caslon-pro-regular;
+    font-size: 0.7em;
+}
+@media only screen and (max-width: 768px) {
+    .value-image {
+        display: none;
+    }
+    .values {
+        margin: 1em;
+    }
 }
 @media only screen and (max-width: 576px) {
     .values > div {
         padding-left: 0px;
         margin-left: 0px;
+        padding-top: 0em;
+        padding-bottom: 0em;
     }
     #value .values {
         font-size: 0.6em;
@@ -459,7 +472,7 @@ a:hover {
     position: absolute;
     padding-top: 90vh;
 }
-@media only screen and (max-width: 566px) {
+@media only screen and (max-width: 576px) {
     #contact {
         font-size: 1em;
     }
