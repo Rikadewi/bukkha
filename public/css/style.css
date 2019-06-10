@@ -292,6 +292,19 @@ a:hover {
     }
     #service .paragraph {
         max-width: 500px;
+        margin: 0 1em;
+    }
+}
+@media only screen and (max-width: 566px) {
+    .title {
+        margin: 0.3em 0 0 0;
+    }
+    .typewriter, #service i {
+        margin-top: 0.5em;
+        font-size: 0.7em;
+    }
+    #service .fa {
+        font-weight :600;
     }
 }
 /* .headline {
