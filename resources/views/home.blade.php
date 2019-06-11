@@ -1,6 +1,12 @@
 @extends('layout.app')
 @section('title')
-Bukkha
+Rancang Bangun | Arsitek Rumah | Bukkha
+@endsection
+@section('meta-description')
+<meta name="description" content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan client, ergonomis, dan inovasi bangunan." data-rdm="true">
+@endsection
+@section('og-description')
+<meta property="og:desription" content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan client, ergonomis, dan inovasi bangunan.">@endsection
 @endsection
 
 @section('menu')

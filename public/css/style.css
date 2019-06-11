@@ -3,6 +3,10 @@
     src: url("../font/kiona-regular.ttf");
 }
 @font-face {
+    font-family: "berthold-light";
+    src: url("../font/berthold-paragraph.otf");
+}
+@font-face {
     font-family: "nexa-regular";
     src: url("../font/nexa-x/NexaBold.otf");
 }
@@ -207,6 +211,9 @@ a:hover {
     border-color: transparent;
 } 
 /* Service */
+#service {
+    font-family: berthold-light;
+}
 #service .center {
     flex-direction: column;
 }
@@ -248,7 +255,7 @@ a:hover {
     font-size: 0.5em;
 }
 #service h1 {
-    font-family: adobe-caslon-pro-regular;
+    font-family: berthold-light;
     font-size: 0.7em;
 }
 .typewriter, #service i {
@@ -259,7 +266,7 @@ a:hover {
     border-right: 0.15em solid black; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: 0.15em; /* Adjust as needed */
+    /* letter-spacing: 0em; Adjust as needed */
     animation: 
       typing 3.5s steps(40, end),
       blink-caret 0.75s step-end infinite;
@@ -394,6 +401,9 @@ a:hover {
     }
 }
 /* Our value */
+#value {
+    font-family: berthold-light;
+}
 .paragraph {
     display: flex;
     flex-direction: row;
@@ -411,7 +421,7 @@ a:hover {
     max-height: 15vh;
 }
 #value .values {
-    font-family: adobe-caslon-pro-regular;
+    font-family: berthold-light;
     font-size: 0.7em;
     text-align: right;
 }
@@ -423,7 +433,7 @@ a:hover {
     max-width: 400px;
 }
 #value h2 {
-    font-family: adobe-caslon-pro-regular;
+    font-family: berthold-light;
     font-size: 0.7em;
 }
 @media only screen and (max-width: 768px) {

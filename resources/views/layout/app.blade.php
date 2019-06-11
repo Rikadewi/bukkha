@@ -7,11 +7,10 @@
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Bukkha design and build." data-rdm="true">
-
+        @yield('meta-description')
         <meta property="og:title" content="Bukkha">
         <meta property="og:site_name" content="Bukkha">
-        <meta property="og:desription" content="Bukkha design and build.">
+        @yield(og-description)
         <meta property="og:type" content="business">
         <meta property="og:url" content="http://bukkha.com">
         <meta property="og:image" content="https://bukkha.com/img/logo/arrow-black.png">
