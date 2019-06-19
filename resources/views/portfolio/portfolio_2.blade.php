@@ -3,6 +3,11 @@
 @section('title')
 VJ House | Modern Tropical Style | Bukkha
 @endsection
+@section('meta-description')
+<meta name="description" 
+content="Rumah tinggal dan kantor ini memiliki konsep rumah dalam taman. Dikarena site tidak memiliki pemandangan yang 
+ mencukupi, rumah dirancang dengan lansekap pada bagian dalam." data-rdm="true">
+@endsection
 
 @section('style')
 <style>   

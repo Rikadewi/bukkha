@@ -3,6 +3,11 @@
 @section('title')
 Dou House | Modern Oriental Style | Bukkha
 @endsection
+@section('meta-description')
+<meta name="description" 
+content="Dou House dirancang agar mendapatkan cahaya dan ventilasi alami secara maksimal yang didukung oleh 
+struktur terbuka dengan pelingkup kaca disela-sela struktur." data-rdm="true">
+@endsection
 
 @section('style')
 <style>   

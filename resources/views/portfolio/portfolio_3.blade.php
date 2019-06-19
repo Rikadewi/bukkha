@@ -3,6 +3,11 @@
 @section('title')
 Villa Trembesi | Contemporary Javanese Style | Bukkha
 @endsection
+@section('meta-description')
+<meta name="description" 
+content="Konsep dari villa adalah sebuah joglo kayu trembesi yang diletakan diatas beton kokoh, sebuah kontras 
+antara sebuah desain bangunan yang etnik dan modernis." data-rdm="true">
+@endsection
 
 @section('style')
 <style>   

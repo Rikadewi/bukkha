@@ -1,12 +1,11 @@
 @extends('layout.app')
+
 @section('title')
 Rancang Bangun | Arsitek Rumah | Bukkha
 @endsection
 @section('meta-description')
-<meta name="description" content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan client, ergonomis, dan inovasi bangunan." data-rdm="true">
-@endsection
-@section('og-description')
-<meta property="og:desription" content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan client, ergonomis, dan inovasi bangunan.">@endsection
+<meta name="description" 
+content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan client, ergonomis, dan inovasi bangunan." data-rdm="true">
 @endsection
 
 @section('menu')
@@ -93,7 +92,8 @@ Rancang Bangun | Arsitek Rumah | Bukkha
                     Design
                 </div>
                 <div class="description">
-                    We design your building based on the concept you want, develop it with creative and innovative ideas, and we will provide you with every detail you need to build it.
+                    We design your building based on the concept you want, develop it with creative and innovative ideas, 
+                    and we will provide you with every detail you need to build it.
                 </div>
             </div>
             <div>
@@ -167,7 +167,8 @@ Rancang Bangun | Arsitek Rumah | Bukkha
                 <div>
                     <img src = "img/value/1.png">
                     <br>Hassle Free
-                    <h2>Throughout the process of realizing your dream building from legal issues until maintenance, we will offer our holistic service for you.</h2>
+                    <h2>Throughout the process of realizing your dream building from legal issues until maintenance, 
+                    we will offer our holistic service for you.</h2>
                 </div>
                 <div>
                     <img src = "img/value/2.png">
@@ -177,7 +178,8 @@ Rancang Bangun | Arsitek Rumah | Bukkha
                 <div>
                     <img src = "img/value/3.png">
                     <br>Challenge the status quo
-                    <h2>We learn for preceding buildings, but we will offer a broader ranges of design approaches and ideas for you to explore so that your building will be custom-made just for you.</h2>
+                    <h2>We learn for preceding buildings, but we will offer a broader ranges of design approaches and 
+                    ideas for you to explore so that your building will be custom-made just for you.</h2>
                 </div>
             </div>
         </div>
