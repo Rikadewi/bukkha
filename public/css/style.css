@@ -1,31 +1,53 @@
 @font-face {
     font-family: "kiona-regular";
-    src: url("../font/kiona-regular.ttf");
+    src: url("../font/kiona/kiona-regular.ttf");
 }
 @font-face {
     font-family: "berthold-light";
-    src: url("../font/berthold-paragraph.otf");
+    src: url("../font/berthold/berthold-light.otf");
 }
 @font-face {
-    font-family: "nexa-regular";
-    src: url("../font/nexa-x/NexaBold.otf");
+    font-family: "berthold-regular";
+    src: url("../font/berthold/berthold-regular.otf");
+}
+@font-face {
+    font-family: "berthold-bold";
+    src: url("../font/berthold/berthold-bold.otf");
 }
 @font-face {
     font-family: "nexa-book";
     src: url("../font/nexa-x/NexaBook.otf");
 }
 @font-face {
+    font-family: "nexa-regular";
+    src: url("../font/nexa-x/NexaBold.otf");
+}
+@font-face {
     font-family: "nexa-heavy";
     src: url("../font/nexa-x/NexaHeavy.otf");
 }
-@font-face {
-    font-family: "adobe-caslon-pro-regular";
-    src: url("../font/adobe-caslon-pro/ACaslonPro-Regular.otf");
+.font1 {
+    font-family: kiona-regular;
 }
-@font-face {
-    font-family: "adobe-caslon-pro-bold";
-    src: url("../font/adobe-caslon-pro/ACaslonPro-Bold.otf");
+.font2 {
+    font-family: berthold-light;
 }
+.font3 {
+    font-family: berthold-regular;
+}
+.font4 {
+    font-family: berthold-bold;
+}
+.font5 {
+    font-family: nexa-book;
+}
+.font6 {
+    font-family: nexa-regular;
+}
+.font7 {
+    font-family: nexa-heavy;
+}
+/* ============== */
 html {
     scroll-behavior: smooth;
 }
@@ -258,7 +280,7 @@ a:hover {
     font-family: berthold-light;
     font-size: 0.7em;
 }
-.typewriter, #service i {
+.typewriter {
     margin: 1em;
 }
 .typewriter h1 {
@@ -460,7 +482,6 @@ a:hover {
 #contact {
     font-size: 1.5em;
     font-family: nexa-book;
-    text-transform: uppercase;
 }
 #contact img {
     max-height: 25vh;

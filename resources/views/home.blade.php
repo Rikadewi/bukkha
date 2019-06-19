@@ -82,9 +82,8 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a porro repudiandae dolore odio sint facere mollitia explicabo saepe tenetur sed officia quibusdam, amet dignissimos quos eos cumque corrupti! Necessitatibus.
             </div>
         </div> -->
-        <i class="fa fa-quote-right"></i>
         <div class="typewriter">
-            <h1>From a humble abode untill the highest skyscrapers, we beileve it should feel just like a bukkha.</h1>
+            <h1>From a humble abode until the highest skyscrapers, we beileve it should feel just like a bukkha. A home.</h1>
         </div>
         <div class="paragraph center">
             <div>
@@ -200,6 +199,16 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
             <a href="tel:+6282211511517">
                 <div>
                     <i class="fas fa-phone"></i>+62 822 115 115 17
+                </div>
+            </a>
+            <a href="facebook.com">
+                <div>
+                    <i class="fab fa-facebook-square"></i>facebook bukkha
+                </div>
+            </a>
+            <a href="instagram.com">
+                <div>
+                    <i class="fab fa-instagram"></i>instagram bukkha
                 </div>
             </a>
         </div>
