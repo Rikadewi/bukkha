@@ -1,8 +1,10 @@
 @extends('layout.app')
 
 @section('menu')
-<div id = "menu" class = " black-background" style = "display: flex">
-<div style = "flex: 1"></div>
+<div id = "menu" class = "portfolio-menu black-background" style = "display: flex">
+    <div>
+        <a href = "/"><i class="fas fa-chevron-circle-left"></i></a>
+    </div>
     <div class = "menu-logo" style = "display: block">
         <a href = "/"><img src="../img/logo/logo2-white.png"></a>
     </div>

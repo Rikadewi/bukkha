@@ -509,6 +509,9 @@ a:hover {
     }
 }
 /* Portfolio Page */
+#menu.portfolio-menu i {
+    font-size: 1.6em;
+}
 .black-shape {
     position: absolute;
     z-index: 9;
