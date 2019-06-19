@@ -201,14 +201,14 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                     <i class="fas fa-phone"></i>+62 822 115 115 17
                 </div>
             </a>
-            <a href="facebook.com">
+            <a href="https://www.facebook.com/bukkha.id/">
                 <div>
-                    <i class="fab fa-facebook-square"></i>facebook bukkha
+                    <i class="fab fa-facebook-square"></i>@bukkha.id
                 </div>
             </a>
-            <a href="instagram.com">
+            <a href="https://www.instagram.com/bukkha/">
                 <div>
-                    <i class="fab fa-instagram"></i>instagram bukkha
+                    <i class="fab fa-instagram"></i>bukkha
                 </div>
             </a>
         </div>
