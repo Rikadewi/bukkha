@@ -1,4 +1,9 @@
 @extends('layout.portfolioPage')
+
+@section('title')
+Dou House | Modern Oriental Style | Bukkha
+@endsection
+
 @section('style')
 <style>   
     .one {
@@ -16,15 +21,23 @@
 </style>
 @endsection
 
-@section('title')
-<h5>Normal House</h5>
-<h4>Contemporer</h4>
+@section('title-content')
+<h5>Dou House</h5>
+<h4>Modern Oriental Style</h4>
 @endsection
 
 @section('content')
-<h2>Normal House</h2>
+<h2>Dou House</h2>
 <h3>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus animi cum architecto perspiciatis voluptas illum culpa nulla harum natus earum reprehenderit quo minus temporibus nobis fugit numquam, neque facilis est.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem blanditiis sequi alias sint sapiente at quisquam labore impedit, amet vitae excepturi, quaerat voluptatum illum explicabo mollitia veniam beatae repudiandae deleniti?
+    Gaya Arsitektur: Modern Oriental Style
+    <br />Tipe Bangunan: Town House
+    <br />Lokasi: BSD City, Tangerang
+    <br />Luas: 150 m<sup>2</sup>
+    <br />Tahun: 2019
+    <br />Dou House terinspirasi oleh struktur rangka atap rumah peranakan di Indonesia. Keindahan struktur tersebut condong 
+    disembunyikan pada bangunan, namun kami merancang bangunan sedemikian rupa untuk menonjolkan struktur tersebut pada 
+    fasade bangunan. Pada tipe rumah pada sebuah kompleks perumahan, Dou House dirancang agar mendapatkan cahaya dan 
+    ventilasi alami secara maksimal yang didukung oleh struktur terbuka dengan pelingkup kaca disela-sela struktur.
+    
 </h3>
 @endsection

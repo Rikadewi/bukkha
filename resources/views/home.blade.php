@@ -85,7 +85,7 @@ Rancang Bangun | Arsitek Rumah | Bukkha
         </div> -->
         <i class="fa fa-quote-right"></i>
         <div class="typewriter">
-            <h1>We help you design, construct, and maintain your dream.</h1>
+            <h1>From a humble abode untill the highest skyscrapers, we beileve it should feel just like a bukkha.</h1>
         </div>
         <div class="paragraph center">
             <div>
@@ -109,7 +109,7 @@ Rancang Bangun | Arsitek Rumah | Bukkha
                     Maintenance
                 </div>
                 <div class="description">
-                    Your building maintenance is guaranteed under our responsibility.
+                    We guarantee the service of helping you with your building's maintenance.
                 </div>
             </div>
 
@@ -126,8 +126,8 @@ Rancang Bangun | Arsitek Rumah | Bukkha
             <div>
                 <a href = "/portfolio/1">
                     <div class = "content center">
-                        <h5>Normal house</h5>
-                        <h4>Contemporer</h4>
+                        <h5>Dou House</h5>
+                        <h4>Modern Oriental Style</h4>
                     </div>
                     <img src = "img/house/1/square.jpg">
                 </a>
@@ -135,8 +135,8 @@ Rancang Bangun | Arsitek Rumah | Bukkha
             <div>
                 <a href = "/portfolio/2">
                     <div class = "content center">
-                        <h5>Medium house</h5>
-                        <h4>Renaissance</h4>
+                        <h5>VJ House</h5>
+                        <h4>Modern Tropical Style</h4>
                     </div>
                     <img src = "img/house/2/square.jpg">
                 </a>
@@ -144,8 +144,8 @@ Rancang Bangun | Arsitek Rumah | Bukkha
             <div>
                 <a href = "/portfolio/3">
                     <div class = "content center">
-                        <h5>Epic house</h5>
-                        <h4>Industry 4.0</h4>
+                        <h5>Villa Trembesi</h5>
+                        <h4>Contemporary Javanese Style</h4>
                     </div>
                     <img src = "img/house/3/square.jpg">
                 </a>
@@ -167,17 +167,17 @@ Rancang Bangun | Arsitek Rumah | Bukkha
                 <div>
                     <img src = "img/value/1.png">
                     <br>Hassle Free
-                    <h2>From legal issues to maintenance, we help you to do it</h2>
+                    <h2>Throughout the process of realizing your dream building from legal issues until maintenance, we will offer our holistic service for you.</h2>
                 </div>
                 <div>
                     <img src = "img/value/2.png">
                     <br>Good Design
-                    <h2>Our design based on energy efficiency and sustainable approach, with innovative thinking</h2>
+                    <h2>Our design based on energy efficiency and sustainable approach, with innovative thinking.</h2>
                 </div>
                 <div>
                     <img src = "img/value/3.png">
                     <br>Challenge the status quo
-                    <h2>never limit how design could be approached, find new ways to build and much more</h2>
+                    <h2>We learn for preceding buildings, but we will offer a broader ranges of design approaches and ideas for you to explore so that your building will be custom-made just for you.</h2>
                 </div>
             </div>
         </div>

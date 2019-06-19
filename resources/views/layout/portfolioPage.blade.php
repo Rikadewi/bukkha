@@ -1,13 +1,4 @@
 @extends('layout.app')
-@section('title')
-Rancang Bangun | Arsitek Rumah | Bukkha
-@endsection
-@section('meta-description')
-<meta name="description" content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan client, ergonomis, dan inovasi bangunan." data-rdm="true">
-@endsection
-@section('og-description')
-<meta property="og:desription" content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan client, ergonomis, dan inovasi bangunan.">@endsection
-@endsection
 
 @section('menu')
 <div id = "menu" class = " black-background" style = "display: flex">
@@ -25,7 +16,7 @@ Rancang Bangun | Arsitek Rumah | Bukkha
 <div id = "portfolio-page" class = "section">
     <div class = "black-shape">
         <div class = "shape-content center">
-            @yield('title')
+            @yield('title-content')
             <div class = "arrow">
                 <a href="#detailPageSection"><i class="fas fa-angle-down"></i></a>
             </div>
