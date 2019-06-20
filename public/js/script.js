@@ -3,6 +3,8 @@ $(document).ready(function() {
 		//options here
       anchors: ['homeSection', 'serviceSection', 'portfolioSection', 'valueSection', 'contactSection'],
       slidesNavigation: 'true',
+      verticalCentered: 'false',
+      scrollBar: 'true',
       afterLoad: function(origin, destination, direction){
          //change menu bar color
          if (direction == 'down'){

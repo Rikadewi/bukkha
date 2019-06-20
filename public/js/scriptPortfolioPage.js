@@ -5,6 +5,8 @@ $(function() {
       // scrollHorizontally: true
       anchors: ['portfolioPageSection', 'detailPageSection'],
       slidesNavigation: 'true',
+      verticalCentered: 'false',
+      scrollBar: 'true',
    });
    $(document).on('load', setInterval(function(){
       fullpage_api.moveSlideRight();
