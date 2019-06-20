@@ -445,7 +445,7 @@ a:hover {
         width: 100vw;
     }
     #portfolio h4, #portfolio h5 {
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
     .button-portfolio {
         border: 1px solid white;
@@ -461,6 +461,9 @@ a:hover {
     }
     .homepage-title {
         margin: 0.5em 0;
+    }
+    #portfolio .paragraph {
+        padding: 0;
     }
 }
 /* Our value */
@@ -531,8 +534,8 @@ a:hover {
 }
 #contact img {
     max-height: 25vh;
-    max-width: 5v6w;
-    margin: 1.5em;
+    max-width: 56vw;
+    margin: 1.5em 0;
 }
 #contact .center{
     flex-direction: column;
@@ -550,8 +553,12 @@ a:hover {
     padding-top: 90vh;
 }
 @media only screen and (max-width: 576px) {
+    #contact img {
+        max-height: 100vh;
+        max-width: 90vw;
+    }
     #contact {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 }
 /* Portfolio Page */
