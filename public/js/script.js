@@ -4,7 +4,8 @@ $(document).ready(function() {
       anchors: ['homeSection', 'serviceSection', 'portfolioSection', 'valueSection', 'contactSection'],
       slidesNavigation: 'true',
       verticalCentered: 'false',
-      scrollBar: 'true',
+      // scrollBar: 'true',
+      responsiveHeight: 670,
       afterLoad: function(origin, destination, direction){
          //change menu bar color
          if (direction == 'down'){

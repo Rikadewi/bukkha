@@ -33,7 +33,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
 @endsection
 
 @section('body')
-<div id = "home" class = "center black-background section" >
+<div id = "home" class = "center black-background section fp-auto-height-responsive" >
     <div class = "static">
         <div id = "tagline" class = "center">
             <div>

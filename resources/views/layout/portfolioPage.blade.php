@@ -15,7 +15,7 @@
 @section('body')
 @yield('style')
 
-<div id = "portfolio-page" class = "section">
+<div id = "portfolio-page" class = "section fp-auto-height-responsive">
     <div class = "black-shape">
         <div class = "shape-content center">
             @yield('title-content')

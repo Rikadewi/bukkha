@@ -308,13 +308,17 @@ a:hover {
         padding: 0.2em;
     }
     .typewriter h1 {
-        letter-spacing: 0.1em;
+        border-right: none;
+        animation: none;
+        white-space: normal;
+        text-align: center;
+        max-width: 80vw;
+    }
+    .paragraph.center {
+        padding: 0 1em;
     }
 }
 @media only screen and (max-width: 768px) {
-    .typewriter {
-        display: none;
-    }
     #service .paragraph.center {
         flex-direction: column;
         align-items: center;
@@ -322,6 +326,9 @@ a:hover {
     #service .paragraph {
         max-width: 500px;
         margin: 0 1em;
+    }
+    .homepage-title {
+        font-size: 1.3em;
     }
 }
 @media only screen and (max-width: 576px) {
