@@ -71,17 +71,6 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
         <div class = "homepage-title">
             <img src = "img/logo/arrow-black.png"> SERVICE
         </div>
-        <!-- <div class = "headline">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id alias provident ipsa quibusdam aspernatur. Laudantium nihil voluptates ratione cupiditate sint debitis reprehenderit nam laboriosam. Nam alias vero soluta dignissimos recusandae!     
-        </div>
-        <div class = "paragraph">
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id alias provident ipsa quibusdam aspernatur. Laudantium nihil voluptates ratione cupiditate sint debitis reprehenderit nam laboriosam. Nam alias vero soluta dignissimos recusandae! 
-            </div>
-            <div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a porro repudiandae dolore odio sint facere mollitia explicabo saepe tenetur sed officia quibusdam, amet dignissimos quos eos cumque corrupti! Necessitatibus.
-            </div>
-        </div> -->
         <div class="typewriter">
             <h1>From a humble abode until the highest skyscrapers, we beileve it should feel just like a bukkha. A home.</h1>
         </div>
@@ -122,32 +111,47 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
             <img src = "img/logo/arrow-white.png"> PORTFOLIO
         </div>
         <div class = "paragraph">
-            <div>
-                <a href = "/portfolio/1">
-                    <div class = "content center">
+            <div class="center">
+                <div class = "content center">
+                    <div class="center">
                         <h5>Dou House</h5>
                         <h4>Modern Oriental Style</h4>
                     </div>
-                    <img src = "img/house/1/square.jpg">
-                </a>
+                    <a href="/portfolio/1">
+                        <div class="button-portfolio">
+                            Learn More
+                        </div>
+                    </a>
+                </div>
+                <img src = "img/house/1/square.jpg">
             </div>
-            <div>
-                <a href = "/portfolio/2">
-                    <div class = "content center">
+            <div class="center">
+                <div class = "content center">
+                    <div class="center">
                         <h5>VJ House</h5>
                         <h4>Modern Tropical Style</h4>
                     </div>
-                    <img src = "img/house/2/square.jpg">
-                </a>
+                    <a href = "/portfolio/2">
+                        <div class="button-portfolio">
+                            Learn More
+                        </div>
+                    </a>
+                </div>
+                <img src = "img/house/2/square.jpg">
             </div>
-            <div>
-                <a href = "/portfolio/3">
-                    <div class = "content center">
+            <div class="center">
+                <div class = "content center">
+                    <div class="center">
                         <h5>Villa Trembesi</h5>
                         <h4>Contemporary Javanese Style</h4>
                     </div>
-                    <img src = "img/house/3/square.jpg">
-                </a>
+                    <a href = "/portfolio/3">
+                        <div class="button-portfolio">
+                            Learn More
+                        </div>
+                    </a>
+                </div>
+                <img src = "img/house/3/square.jpg">
             </div>
         </div>
     </div>
