@@ -436,6 +436,7 @@ a:hover {
     .content, #portfolio .paragraph img {
         height: 100vw;
         width: 100vw;
+        background: rgba(0, 0, 0, 0.2);
     }
     #portfolio h4, #portfolio h5 {
         font-size: 0.6em;
@@ -445,6 +446,7 @@ a:hover {
         border-radius: 3px;
         font-size: 0.6em;
         padding: 0.8em 1.6em;
+        background-color: rgba(0,0,0,0.7);
     }
     #portfolio .paragraph > div {
         margin: 0;
