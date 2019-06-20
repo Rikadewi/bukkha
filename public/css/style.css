@@ -391,6 +391,9 @@ a:hover {
 #portfolio h4 {
     text-align: center;
 }
+.paragraph > div {
+    flex: 1;
+}
 .button-portfolio {
     border: 2px solid white;
     border-radius: 5px;
@@ -479,6 +482,9 @@ a:hover {
 }
 .value-image img {
     height: 35vw;
+}
+#value .paragraph > div {
+    flex: none;
 }
 .values img {
     height: 15vh;
