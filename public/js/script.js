@@ -5,7 +5,7 @@ $(document).ready(function() {
       slidesNavigation: 'true',
       verticalCentered: 'false',
       // scrollBar: 'true',
-      responsiveHeight: 670,
+      responsiveWidth: 576,
       afterLoad: function(origin, destination, direction){
          //change menu bar color
          if (direction == 'down'){

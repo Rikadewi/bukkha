@@ -332,19 +332,7 @@ a:hover {
         font-size: 1.3em;
     }
 }
-@media only screen and (max-width: 576px) and (min-height: 671px) {
-    .title {
-        margin: 0.3em 0 0 0;
-    }
-    .typewriter, #service i {
-        margin-top: 0.5em;
-        font-size: 0.7em;
-    }
-    #service .fa {
-        font-weight :600;
-    }
-}
-@media only screen and (max-height: 670px) {
+@media only screen and (max-width: 576px) {
     div#service {
         height: auto;
         padding: 2em 0;
@@ -410,8 +398,11 @@ a:hover {
 }
 @media only screen and (max-width: 1300px) {
     .content, #portfolio .paragraph img {
-        min-height: 280px;
-        min-width: 280px;
+        min-height: 250px;
+        min-width: 250px;
+    }
+    #portfolio .paragraph {
+        margin-top: 0vh;
     }
 }
 @media only screen and (max-width: 1300px) {
@@ -435,7 +426,7 @@ a:hover {
         padding: 0.6em 1.2em;
     }
 }
-@media only screen and (max-height: 670px) {
+@media only screen and (max-width: 576px) {
     div#portfolio {
         height: auto;
     }
@@ -454,9 +445,6 @@ a:hover {
         border-radius: 3px;
         font-size: 0.6em;
         padding: 0.8em 1.6em;
-    }
-    #portfolio .paragraph {
-        margin-top: 0vh;
     }
     #portfolio .paragraph > div {
         margin: 0;
@@ -555,7 +543,7 @@ a:hover {
         /* width: 15vh; */
     }
     #value .values {
-        max-width: 100vw;
+        max-width: 80vw;
     }
     .values > div {
         max-width: 470px;
@@ -565,14 +553,10 @@ a:hover {
         padding-right: 0em;
     }
 }
-@media only screen and (max-height: 670px) {
+@media only screen and (max-width:576px) {
     div#value {
         height: auto;
         padding: 2em 0;
-    }
-    /* .values */
-    #value .paragraph {
-        padding: 0 1em;
     }
     .values > div {
         flex-direction: column-reverse;
