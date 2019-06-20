@@ -47,7 +47,7 @@
 </div>
 <div id = "detail-page" class = "section gray-background">
 <div class = "paragraph">
-        <div></div>
+        <div class="detail-filler"></div>
         <div class = "detail center">
             <div>
                 @yield('content')

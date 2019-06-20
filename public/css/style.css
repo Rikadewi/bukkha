@@ -65,7 +65,7 @@ h2 {
     font-family: nexa-regular;
 }
 h3 {
-    font-family: nexa-regular;
+    font-family: nexa-book;
 }
 h4, h5 {
     font-size: 0.5em;
@@ -676,21 +676,34 @@ a:hover {
     padding: 1em;
 }
 #detail-page h3 {
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 @media only screen and (max-width: 768px) {
-    #detail-page h3 {
-        font-size: 0.5em;
+    
+    #detail-page .paragraph .detail-filler {
+        flex: 0.5;
     }
 }
 @media only screen and (max-width: 576px) {
-    #detail-page h3 {
-        font-size: 0.5em;
-    }
     #detail-page .paragraph {
         display: block;
     }
     .detail div {
         margin-left: 2em;
     }
+}
+@media only screen and (max-width: 450px) {
+    #detail-page h2 {
+        font-size: 1.5rem;
+    }
+    .detail div {
+        margin-left: 1em;
+        padding: 0.5em;
+    }
+}
+@media only screen and (max-width: 320px) {
+    #detail-page h3 {
+        font-size: 0.4em;
+    }
+
 }
