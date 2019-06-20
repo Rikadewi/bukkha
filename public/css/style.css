@@ -410,8 +410,6 @@ a:hover {
 }
 @media only screen and (max-width: 1300px) {
     .content, #portfolio .paragraph img {
-        height: 30vw;
-        width: 30vw;
         min-height: 280px;
         min-width: 280px;
     }
