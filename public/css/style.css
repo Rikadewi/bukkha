@@ -572,6 +572,11 @@ a:hover {
     font-size: 1.5em;
     font-family: nexa-book;
 }
+#contact .wrapper {
+    height: 100%;
+    padding-top: 25vh;
+    justify-content: space-between;
+}
 #contact img {
     max-height: 25vh;
     max-width: 56vw;
@@ -587,10 +592,8 @@ a:hover {
 .data {
     text-align: left;
 }
-.footer {
+.copyright {
     font-family: nexa-regular;
-    position: absolute;
-    padding-top: 90vh;
 }
 @media only screen and (max-width: 576px) {
     #contact img {
@@ -679,7 +682,6 @@ a:hover {
     font-size: 0.5em;
 }
 @media only screen and (max-width: 768px) {
-    
     #detail-page .paragraph .detail-filler {
         flex: 0.5;
     }
@@ -689,21 +691,23 @@ a:hover {
         display: block;
     }
     .detail div {
-        margin-left: 2em;
+        margin-left: 1.8em;
+    }
+    #detail-page h3 {
+        font-size: 0.45em;
     }
 }
 @media only screen and (max-width: 450px) {
     #detail-page h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     .detail div {
-        margin-left: 1em;
-        padding: 0.5em;
+        margin-left: 0.9em;
+        padding: 0.45em;
     }
 }
 @media only screen and (max-width: 320px) {
     #detail-page h3 {
-        font-size: 0.4em;
+        font-size: 0.35em;
     }
-
 }

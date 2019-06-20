@@ -202,33 +202,35 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
 </div>
 
 <div id = "contact"  class = "black-background section">
-    <div class = "center">
-        <div>
-            <img src = "img/logo/logo-white.png">
+    <div class = "center wrapper">
+        <div class="center">
+            <div>
+                <img src = "img/logo/logo-white.png">
+            </div>
+            <div class = "data">
+                <a href="mailto:hello@bukkha.com">
+                    <div>
+                        <i class="fas fa-envelope"></i>hello@bukkha.com
+                    </div>
+                </a>
+                <a href="https://wa.me/+6282211511517">
+                    <div>
+                        <i class="fas fa-phone"></i>+62 822 115 115 17
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/bukkha.id/">
+                    <div>
+                        <i class="fab fa-facebook-square"></i>@bukkha.id
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/bukkha/">
+                    <div>
+                        <i class="fab fa-instagram"></i>bukkha
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class = "data">
-            <a href="mailto:hello@bukkha.com">
-                <div>
-                    <i class="fas fa-envelope"></i>hello@bukkha.com
-                </div>
-            </a>
-            <a href="tel:+6282211511517">
-                <div>
-                    <i class="fas fa-phone"></i>+62 822 115 115 17
-                </div>
-            </a>
-            <a href="https://www.facebook.com/bukkha.id/">
-                <div>
-                    <i class="fab fa-facebook-square"></i>@bukkha.id
-                </div>
-            </a>
-            <a href="https://www.instagram.com/bukkha/">
-                <div>
-                    <i class="fab fa-instagram"></i>bukkha
-                </div>
-            </a>
-        </div>
-        <div class = "footer">
+        <div class = "copyright">
             &copy Bukkha 2019
         </div>
     </div>
