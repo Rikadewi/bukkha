@@ -55,7 +55,7 @@ html {
     background-color: white;
     height: 100vh;
     color: black;
-    font-family: adobe-caslon-pro-regular;
+    font-family: nexa-regular;
     font-size: 2em;
 }
 h1 {
@@ -65,11 +65,12 @@ h2 {
     font-family: nexa-regular;
 }
 h3 {
-    font-family: adobe-caslon-pro-regular;
+    font-family: nexa-regular;
 }
 h4, h5 {
     font-size: 0.5em;
     text-transform: uppercase;
+    text-align: center;
 }
 h4 {
     font-family: nexa-heavy;
@@ -179,7 +180,7 @@ a:hover {
     color: white;
 }
 #tagline {
-    font-family: adobe-caslon-pro-regular;
+    font-family: nexa-regular;
     font-size: 1em;
     color: white;
     height: 100%;
@@ -622,14 +623,18 @@ a:hover {
 #menu.portfolio-menu i {
     font-size: 1.6em;
 }
+#menu.portfolio-menu .menu-logo {
+    margin-left: 2em;
+}
 .black-shape {
     position: absolute;
     z-index: 9;
     width: 40vh;
-    height: 100vh;
+    height: 95vh;
     margin-left: 10vw;
     background: rgba(0, 0, 0, 0.7);
     color: white;
+    margin-top: 5vh;
 }
 .background {
     background-position: center;
@@ -653,9 +658,11 @@ a:hover {
 }
 #portfolio-page h4 {
     font-size: 0.8em;
+    margin: 0;
 }
 #portfolio-page h5 {
     font-size: 0.8em;
+    margin: 0;
 }
 #portfolio-page ul li a span {
     background: white;
