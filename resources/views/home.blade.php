@@ -173,7 +173,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                         <h2>Throughout the process of realizing your dream building from legal issues until maintenance, 
                         we will offer our holistic service for you.</h2>
                     </div>
-                    <div>
+                    <div class="center">
                         <img src = "img/value/1.png">
                     </div>
                 </div>
@@ -182,7 +182,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                         <h1>Good Design</h1>
                         <h2>Our design based on energy efficiency and sustainable approach, with innovative thinking.</h2>
                     </div>
-                    <div>
+                    <div class="center">
                         <img src = "img/value/2.png">
                     </div>
                 </div>
@@ -192,7 +192,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                         <h2>We learn for preceding buildings, but we will offer a broader ranges of design approaches and 
                         ideas for you to explore so that your building will be custom-made just for you.</h2>
                     </div>
-                    <div>
+                    <div class="center">
                         <img src = "img/value/3.png">
                     </div>
                 </div>
