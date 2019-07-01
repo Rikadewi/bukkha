@@ -72,32 +72,32 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
             <img src = "img/logo/arrow-black.png"> SERVICE
         </div>
         <div class="typewriter">
-            <h1>From a humble abode until the highest skyscrapers, we beileve it should feel just like a bukkha. A home.</h1>
+            <h3>From a humble abode until the highest skyscrapers, we beileve it should feel just like a bukkha. A home.</h3>
         </div>
         <div class="paragraph center">
             <div>
                 <div class="title">
-                    Design
+                    <h1>Design</h1>
                 </div>
-                <div class="description">
-                    We design your building based on the concept you want, develop it with creative and innovative ideas, 
-                    and we will provide you with every detail you need to build it.
-                </div>
-            </div>
-            <div>
-                <div class="title">
-                    Construction
-                </div>
-                <div class="description">
-                    We build your home, office, or any other building type with the best method possible. 
+                <div>
+                    <h4>We design your building based on the concept you want, develop it with creative and innovative ideas,
+                    and we will provide you with every detail you need to build it.  </h4>
                 </div>
             </div>
             <div>
                 <div class="title">
-                    Maintenance
+                    <h1>Construction</h1>
                 </div>
-                <div class="description">
-                    We guarantee the service of helping you with your building's maintenance.
+                <div>
+                    <h4>We build your home, office, or any other building type with the best method possible. </h4>
+                </div>
+            </div>
+            <div>
+                <div class="title">
+                    <h1>Maintenance</h1>
+                </div>
+                <div>
+                    <h4>We guarantee the service of helping you with your building's maintenance.</h4>
                 </div>
             </div>
 
@@ -114,7 +114,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
             <div class="center">
                 <div class = "content center">
                     <div class="center">
-                        <h5>Dou House</h5>
+                        <h1>Dou House</h1>
                         <h4>Modern Oriental Style</h4>
                     </div>
                     <a href="/portfolio/1">
@@ -128,7 +128,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
             <div class="center">
                 <div class = "content center">
                     <div class="center">
-                        <h5>VJ House</h5>
+                        <h1>VJ House</h1>
                         <h4>Modern Tropical Style</h4>
                     </div>
                     <a href = "/portfolio/2">
@@ -142,7 +142,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
             <div class="center">
                 <div class = "content center">
                     <div class="center">
-                        <h5>Villa Trembesi</h5>
+                        <h1>Villa Trembesi</h1>
                         <h4>Contemporary Javanese Style</h4>
                     </div>
                     <a href = "/portfolio/3">

@@ -26,26 +26,36 @@
     font-family: "nexa-heavy";
     src: url("../font/nexa-x/NexaHeavy.otf");
 }
+@font-face {
+    font-family: "raleway-extralight";
+    src: url("../font/raleway/Raleway-ExtraLight.ttf");
+}
+@font-face {
+    font-family: "raleway-light";
+    src: url("../font/raleway/Raleway-Light.ttf");
+}
+@font-face {
+    font-family: "raleway-regular";
+    src: url("../font/raleway/Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: "raleway-medium";
+    src: url("../font/raleway/Raleway-Medium.ttf");
+}
 .font1 {
     font-family: kiona-regular;
 }
 .font2 {
-    font-family: berthold-light;
+    font-family: raleway-extralight;
 }
 .font3 {
-    font-family: berthold-regular;
+    font-family: raleway-light;
 }
 .font4 {
-    font-family: berthold-bold;
+    font-family: raleway-regular;
 }
 .font5 {
-    font-family: nexa-book;
-}
-.font6 {
-    font-family: nexa-regular;
-}
-.font7 {
-    font-family: nexa-heavy;
+    font-family: raleway-medium;
 }
 /* ============== */
 html {
@@ -58,25 +68,31 @@ html {
     font-family: nexa-regular;
     font-size: 2em;
 }
+/* Heading */
 h1 {
-    font-family: kiona-regular;
+    font-family: raleway-medium;
+    font-size: 1em;
 }
 h2 {
-    font-family: nexa-regular;
+    font-family: raleway-regular;
+    font-size: 0.8em;
 }
 h3 {
+<<<<<<< Updated upstream
     font-family: nexa-book;
 }
 h4, h5 {
     font-size: 0.5em;
     text-transform: uppercase;
     text-align: center;
+=======
+    font-family: raleway-light;
+    font-size: 0.7em;
+>>>>>>> Stashed changes
 }
 h4 {
-    font-family: nexa-heavy;
-}
-h5 {
-    font-family: nexa-book;
+    font-family: raleway-extralight;
+    font-size: 0.6em;
 }
 a:hover {
     text-decoration: none;
@@ -170,6 +186,26 @@ a:hover {
     } */
     
 }
+/* Title Header */
+.homepage-title {
+    display: flex;
+    align-items: center;
+    font-size: 1.6em;
+    text-align: center;
+    font-family: kiona-regular;
+}
+.homepage-title > img {
+    height: 1em;
+    width: 1em;
+    margin-bottom: -0.2em;
+    margin-right: 0.3em;
+}
+
+.gray-background {
+    background-color: #1A1A1A;
+    color: white;
+}
+
 /* Home */
 .black-background {
     background-color: black;
@@ -233,29 +269,10 @@ a:hover {
 .fp-controlArrow.fp-prev {
     border-color: transparent;
 } 
+
 /* Service */
-#service {
-    font-family: berthold-light;
-}
 #service .center {
     flex-direction: column;
-}
-.gray-background {
-    background-color: #1A1A1A;
-    color: white;
-}
-.homepage-title {
-    display: flex;
-    align-items: center;
-    font-size: 1.6em;
-    text-align: center;
-    font-family: kiona-regular;
-}
-.homepage-title > img {
-    height: 1em;
-    width: 1em;
-    margin-bottom: -0.2em;
-    margin-right: 0.3em;
 }
 #service .paragraph.center {
     flex-direction: row;
@@ -270,23 +287,14 @@ a:hover {
     text-align: center;
 }
 .title {
-    border-bottom: 1px solid #999;
-    font-size: 1em;
     margin: 1em;
-}
-.description {
-    font-size: 0.5em;
-}
-#service h1 {
-    font-family: berthold-light;
-    font-size: 0.7em;
 }
 .typewriter {
     margin: 1em;
 }
-.typewriter h1 {
+.typewriter h3 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: 0.15em solid black; /* The typwriter cursor */
+    border-right: 0.05em solid black; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     /* letter-spacing: 0em; Adjust as needed */
@@ -304,11 +312,11 @@ a:hover {
     from, to { border-color: transparent }
     50% { border-color: black; }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1150px) {
     #service .paragraph > div {
         padding: 0.2em;
     }
-    .typewriter h1 {
+    .typewriter h3 {
         border-right: none;
         animation: none;
         white-space: normal;
@@ -332,19 +340,28 @@ a:hover {
         font-size: 1.3em;
     }
 }
+<<<<<<< Updated upstream
 @media only screen and (max-width: 576px) {
+=======
+@media only screen and (max-width: 576px) and (min-height: 671px) {
+    .title {
+        margin: 0.3em 0 0 0;
+    }
+    .typewriter, #service i {
+        margin-top: 0.5em;
+    }
+    #service .fa {
+        font-weight :600;
+    }
+}
+@media only screen and (max-height: 670px) {
+>>>>>>> Stashed changes
     div#service {
         height: auto;
         padding: 2em 0;
     }
     #service .paragraph {
         margin: 0;
-    }
-    #service h1 {
-        font-size: 0.8em;
-    }
-    .description {
-        font-size: 0.6em;
     }
 }
 
@@ -377,16 +394,16 @@ a:hover {
     margin-top: 8vh;
     flex-wrap: wrap;
 }
-#portfolio h4 {
+#portfolio h4, #portfolio h1 {
     text-align: center;
 }
 .paragraph > div {
     flex: 1;
 }
 .button-portfolio {
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 5px;
-    font-family: kiona-regular;
+    font-family: raleway-light;
     font-size: 0.5em;
     padding: 0.8em 1.6em;
     background-color: rgba(0,0,0,0.5);
@@ -416,17 +433,24 @@ a:hover {
         min-height: 200px;
         min-width: 200px;
     }
-    #portfolio h4, #portfolio h5 {
+    #portfolio h1 {
+        font-size: 0.8em;
+    }
+    #portfolio h4 {
         font-size: 0.4em;
     }
     .button-portfolio {
-        border: 1px solid white;
+        border: 0.8px solid white;
         border-radius: 2px;
         font-size: 0.4em;
         padding: 0.6em 1.2em;
     }
 }
+<<<<<<< Updated upstream
 @media only screen and (max-width: 576px) {
+=======
+@media only screen and (max-width: 670px) {
+>>>>>>> Stashed changes
     div#portfolio {
         height: auto;
     }
@@ -438,7 +462,10 @@ a:hover {
         width: 100vw;
         background: rgba(0, 0, 0, 0.2);
     }
-    #portfolio h4, #portfolio h5 {
+    #portfolio h1 {
+        font-size: 1em;
+    }
+    #portfolio h4 {
         font-size: 0.6em;
     }
     .button-portfolio {
