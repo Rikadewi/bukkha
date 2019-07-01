@@ -170,8 +170,8 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                 <div>
                     <div class="center">
                         <h1>Hassle Free</h1>
-                        <h2>Throughout the process of realizing your dream building from legal issues until maintenance, 
-                        we will offer our holistic service for you.</h2>
+                        <h4>Throughout the process of realizing your dream building from legal issues until maintenance, 
+                        we will offer our holistic service for you.</h4>
                     </div>
                     <div class="center">
                         <img src = "img/value/1.png">
@@ -180,7 +180,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                 <div>
                     <div class="center">
                         <h1>Good Design</h1>
-                        <h2>Our design based on energy efficiency and sustainable approach, with innovative thinking.</h2>
+                        <h4>Our design based on energy efficiency and sustainable approach, with innovative thinking.</h4>
                     </div>
                     <div class="center">
                         <img src = "img/value/2.png">
@@ -189,8 +189,8 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                 <div>
                     <div class="center">
                         <h1>Challenge the status quo</h1>
-                        <h2>We learn for preceding buildings, but we will offer a broader ranges of design approaches and 
-                        ideas for you to explore so that your building will be custom-made just for you.</h2>
+                        <h4>We learn for preceding buildings, but we will offer a broader ranges of design approaches and 
+                        ideas for you to explore so that your building will be custom-made just for you.</h4>
                     </div>
                     <div class="center">
                         <img src = "img/value/3.png">

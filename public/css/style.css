@@ -71,7 +71,7 @@ html {
 /* Heading */
 h1 {
     font-family: raleway-medium;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 h2 {
     font-family: raleway-regular;
@@ -83,7 +83,7 @@ h3 {
 }
 h4 {
     font-family: raleway-extralight;
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 a:hover {
     text-decoration: none;
@@ -476,51 +476,35 @@ a:hover {
 }
 .values img {
     height: 15vh;
-    /* width: 15vh; */
 }
 #value .values {
-    font-family: berthold-light;
-    font-size: 0.7em;
     text-align: right;
     padding-right: 2em;
     max-width: 60vw;
 }
 .values > div {
-    border-bottom: 1px solid #999;
     padding-left: 2em;
-    padding-top: 1em;
     padding-bottom: 0.5em;
     max-width: 600px;
     display: flex;
 }
 .values h1 {
-    font-size: 1.1em;
     width: 100%;
-}
-.values h2 {
-    font-family: berthold-light;
-    font-size: 0.9em;
 }
 @media only screen and (max-width: 1400px) {
     .value-image img {
         height: 50vw;
-    }
-    .values h1 {
-        font-size: 1em;
-    }
-    .values h2 {
-        font-size: 0.7em;
     }
 }
 @media only screen and (max-width: 900px) {
     .value-image img {
         height: 60vw;
     }
-    .values h1 {
-        font-size: 0.9em;
+    h1 {
+        font-size: 0.7em;
     }
-    .values h2 {
-        font-size: 0.6em;
+    h4 {
+        font-size: 0.4em;
     }
     .values img {
         height: 10vh;
@@ -534,10 +518,10 @@ a:hover {
         margin: 1em;
     }
     .values h1 {
-        font-size: 1em;
+        font-size: 0.9em;
     }
-    .values h2 {
-        font-size: 0.7em;
+    .values h4 {
+        font-size: 0.5em;
     }
     .values img {
         height: 15vh;
