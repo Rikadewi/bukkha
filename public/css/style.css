@@ -78,17 +78,8 @@ h2 {
     font-size: 0.8em;
 }
 h3 {
-<<<<<<< Updated upstream
-    font-family: nexa-book;
-}
-h4, h5 {
-    font-size: 0.5em;
-    text-transform: uppercase;
-    text-align: center;
-=======
     font-family: raleway-light;
     font-size: 0.7em;
->>>>>>> Stashed changes
 }
 h4 {
     font-family: raleway-extralight;
@@ -340,22 +331,7 @@ a:hover {
         font-size: 1.3em;
     }
 }
-<<<<<<< Updated upstream
 @media only screen and (max-width: 576px) {
-=======
-@media only screen and (max-width: 576px) and (min-height: 671px) {
-    .title {
-        margin: 0.3em 0 0 0;
-    }
-    .typewriter, #service i {
-        margin-top: 0.5em;
-    }
-    #service .fa {
-        font-weight :600;
-    }
-}
-@media only screen and (max-height: 670px) {
->>>>>>> Stashed changes
     div#service {
         height: auto;
         padding: 2em 0;
@@ -446,11 +422,7 @@ a:hover {
         padding: 0.6em 1.2em;
     }
 }
-<<<<<<< Updated upstream
-@media only screen and (max-width: 576px) {
-=======
 @media only screen and (max-width: 670px) {
->>>>>>> Stashed changes
     div#portfolio {
         height: auto;
     }
