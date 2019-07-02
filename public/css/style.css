@@ -70,20 +70,16 @@ html {
 }
 /* Heading */
 h1 {
-    font-family: raleway-medium;
-    font-size: 0.9em;
+    font-family: raleway-regular;
+    font-size: 30px;
 }
 h2 {
-    font-family: raleway-regular;
-    font-size: 0.8em;
+    font-family: raleway-light;
+    font-size: 25px;
 }
 h3 {
-    font-family: raleway-light;
-    font-size: 0.7em;
-}
-h4 {
     font-family: raleway-extralight;
-    font-size: 0.5em;
+    font-size: 15px;
 }
 a:hover {
     text-decoration: none;
@@ -283,7 +279,7 @@ a:hover {
 .typewriter {
     margin: 1em;
 }
-.typewriter h3 {
+.typewriter h2 {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 0.05em solid black; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -307,7 +303,7 @@ a:hover {
     #service .paragraph > div {
         padding: 0.2em;
     }
-    .typewriter h3 {
+    .typewriter h2 {
         border-right: none;
         animation: none;
         white-space: normal;
@@ -370,7 +366,7 @@ a:hover {
     margin-top: 8vh;
     flex-wrap: wrap;
 }
-#portfolio h4, #portfolio h1 {
+#portfolio h3, #portfolio h1 {
     text-align: center;
 }
 .paragraph > div {
@@ -412,7 +408,7 @@ a:hover {
     #portfolio h1 {
         font-size: 0.8em;
     }
-    #portfolio h4 {
+    #portfolio h3 {
         font-size: 0.4em;
     }
     .button-portfolio {
@@ -431,13 +427,13 @@ a:hover {
     }
     .content, #portfolio .paragraph img {
         height: 100vw;
-        width: 100vw;
+        width: 100%;
         background: rgba(0, 0, 0, 0.2);
     }
     #portfolio h1 {
         font-size: 1em;
     }
-    #portfolio h4 {
+    #portfolio h3 {
         font-size: 0.6em;
     }
     .button-portfolio {
@@ -464,6 +460,9 @@ a:hover {
 .paragraph {
     display: flex;
     flex-direction: row;
+}
+#value .homepage-title {
+    margin: 1em;
 }
 #value .center {
     flex-direction: column;
@@ -503,7 +502,7 @@ a:hover {
     h1 {
         font-size: 0.7em;
     }
-    h4 {
+    h3 {
         font-size: 0.4em;
     }
     .values img {
@@ -520,7 +519,7 @@ a:hover {
     .values h1 {
         font-size: 0.9em;
     }
-    .values h4 {
+    .values h3 {
         font-size: 0.5em;
     }
     .values img {
@@ -553,19 +552,18 @@ a:hover {
 }
 
 /* Contact */
-#contact {
-    font-size: 1.5em;
-    font-family: nexa-book;
-}
 #contact .wrapper {
     height: 100%;
     padding-top: 25vh;
     justify-content: space-between;
 }
+#contact p {
+    font-family: kiona-regular;
+    font-size: 1.2em;
+}
 #contact img {
     max-height: 25vh;
     max-width: 56vw;
-    margin: 1.5em 0;
 }
 #contact .center{
     flex-direction: column;
@@ -578,15 +576,17 @@ a:hover {
     text-align: left;
 }
 .copyright {
-    font-family: nexa-regular;
+    font-family: kiona-regular;
+    font-size: 25px;
 }
 @media only screen and (max-width: 576px) {
     #contact img {
         max-height: 100vh;
         max-width: 90vw;
     }
-    #contact {
-        font-size: 1.2em;
+    #contact p {
+        font-size: 0.9em;
+        margin-bottom: 2em;
     }
 }
 /* Portfolio Page */
@@ -626,7 +626,7 @@ a:hover {
     width: 40vh;
     height: 70vh;
 }
-#portfolio-page h4 {
+#portfolio-page h3 {
     font-size: 0.8em;
     margin: 0;
 }
