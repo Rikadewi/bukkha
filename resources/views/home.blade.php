@@ -15,10 +15,10 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
         <a href = "#homeSection"><img id = "menu-img" src="../img/logo/logo2-black.png"></a>
     </div>
     <div class = "menu-filler"></div>
-    <div><a href = "#serviceSection">Service</a></div>
-    <div><a href = "#portfolioSection">Portfolio</a></div>
-    <div><a href = "#valueSection">Our Value</a></div>
-    <div><a href = "#contactSection">Contact</a></div>
+    <div><a class="menu-service" href = "#serviceSection">Service</a></div>
+    <div><a class="menu-portfolio" href = "#portfolioSection">Portfolio</a></div>
+    <div><a class="menu-value" href = "#valueSection">Our Value</a></div>
+    <div><a class="menu-contact" href = "#contactSection">Contact</a></div>
     <div class = "menu-filler-corner"></div>
     <!-- <div class = "menu-burger" data-toggle = "collapse" data-target = "#collapsed">
         <img src = "../img/icon/burger-black.png">

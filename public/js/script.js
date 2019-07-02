@@ -17,6 +17,32 @@ $(document).ready(function() {
                $('#menu').removeClass('black-background').addClass('white-background');
                $('#menu-img').attr('src', 'img/logo/logo2-black.png');
             }
+            //change current menu bolder
+            if(destination.anchor == 'serviceSection') {
+               $('.menu-service').addClass('current-menu');
+            }
+            if(destination.anchor == 'portfolioSection') {
+               $('.menu-portfolio').addClass('current-menu');
+            }
+            if(destination.anchor == 'valueSection') {
+               $('.menu-value').addClass('current-menu');
+            }
+            if(destination.anchor == 'contactSection') {
+               $('.menu-contact').addClass('current-menu');
+            }
+
+            if(origin.anchor == 'serviceSection') {
+               $('.menu-service').removeClass('current-menu');
+            }
+            if(origin.anchor == 'portfolioSection') {
+               $('.menu-portfolio').removeClass('current-menu');
+            }
+            if(origin.anchor == 'valueSection') {
+               $('.menu-value').removeClass('current-menu');
+            }
+            if(origin.anchor == 'contactSection') {
+               $('.menu-contact').removeClass('current-menu');
+            }
          }
       },
       onLeave: function(origin, destination, direction){
@@ -36,6 +62,33 @@ $(document).ready(function() {
             else{
                $('#menu').removeClass('black-background').addClass('white-background');
                $('#menu-img').attr('src', 'img/logo/logo2-black.png');
+            }
+
+            //change current menu bolder
+            if(destination.anchor == 'serviceSection') {
+               $('.menu-service').addClass('current-menu');
+            }
+            if(destination.anchor == 'portfolioSection') {
+               $('.menu-portfolio').addClass('current-menu');
+            }
+            if(destination.anchor == 'valueSection') {
+               $('.menu-value').addClass('current-menu');
+            }
+            if(destination.anchor == 'contactSection') {
+               $('.menu-contact').addClass('current-menu');
+            }
+
+            if(origin.anchor == 'serviceSection') {
+               $('.menu-service').removeClass('current-menu');
+            }
+            if(origin.anchor == 'portfolioSection') {
+               $('.menu-portfolio').removeClass('current-menu');
+            }
+            if(origin.anchor == 'valueSection') {
+               $('.menu-value').removeClass('current-menu');
+            }
+            if(origin.anchor == 'contactSection') {
+               $('.menu-contact').removeClass('current-menu');
             }
          }
       },
