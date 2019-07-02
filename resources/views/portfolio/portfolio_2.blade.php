@@ -27,21 +27,21 @@ content="Rumah tinggal dan kantor ini memiliki konsep rumah dalam taman. Dikaren
 @endsection
 
 @section('title-content')
-<h5>VJ House</h5>
-<h4>Modern Tropical Style</h4>
+VJ House
+@endsection
+@section('desc-content')
+Modern Tropical Style
 @endsection
 
 @section('content')
-<h2>VJ House</h2>
-<h3>
-    Gaya Arsitektur: Modern Tropical Style
-    <br />Tipe Bangunan: Rumah Tinggal dan Kantor
-    <br />Lokasi: Ciumbuleuit, Bandung
-    <br />Luas: 510 m<sup>2</sup>
-    <br />Tahun: 2018
-    <br />Rumah tinggal dan kantor ini memiliki konsep rumah dalam taman. Dikarena site tidak memiliki pemandangan yang 
-    mencukupi, rumah dirancang dengan lansekap pada bagian dalam. Berbeda dengan rumah pada umumnya yang memiliki frontyard 
-    dan/atau backyard, rumah memiliki middle yard yang menghubungi kantor yang lebih publik didepan menuju rumah yang 
-    lebih privat dibelakangnya.
-</h3>
+<br />Gaya Arsitektur: Modern Tropical Style
+<br />Tipe Bangunan: Rumah Tinggal dan Kantor
+<br />Lokasi: Ciumbuleuit, Bandung
+<br />Luas: 510 m<sup>2</sup>
+<br />Tahun: 2018
+<br />
+<br />Rumah tinggal dan kantor ini memiliki konsep rumah dalam taman. Dikarena site tidak memiliki pemandangan yang 
+mencukupi, rumah dirancang dengan lansekap pada bagian dalam. Berbeda dengan rumah pada umumnya yang memiliki frontyard 
+dan/atau backyard, rumah memiliki middle yard yang menghubungi kantor yang lebih publik didepan menuju rumah yang 
+lebih privat dibelakangnya.
 @endsection

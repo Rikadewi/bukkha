@@ -601,12 +601,15 @@ a:hover {
 .black-shape {
     position: absolute;
     z-index: 9;
-    width: 40vh;
-    height: 95vh;
-    margin-left: 10vw;
+    width: 30vw;
+    min-width: 380px;
+    height: 5em;
+    margin-left: 0px;
     background: rgba(0, 0, 0, 0.7);
     color: white;
     margin-top: 5vh;
+    padding: 1em 0px;
+    bottom: 10vh;
 }
 .background {
     background-position: center;
@@ -625,16 +628,12 @@ a:hover {
 }
 .shape-content {
     position: absolute;
-    width: 40vh;
-    height: 70vh;
+    width: 30vw;
+    min-width: 380px;
+    height: auto;
 }
-#portfolio-page h3 {
-    font-size: 0.8em;
-    margin: 0;
-}
-#portfolio-page h5 {
-    font-size: 0.8em;
-    margin: 0;
+#portfolio-page h3{
+    font-size: 20px;
 }
 #portfolio-page ul li a span {
     background: white;
@@ -665,8 +664,11 @@ a:hover {
     border-left: 1px solid #999;
     padding: 1em;
 }
-#detail-page h3 {
-    font-size: 0.5em;
+#detail-page h1 {
+    font-size: 30px;
+}
+#detail-page h2 {
+    font-size: 20px;
 }
 @media only screen and (max-width: 768px) {
     #detail-page .paragraph .detail-filler {
@@ -680,21 +682,13 @@ a:hover {
     .detail div {
         margin-left: 1.8em;
     }
-    #detail-page h3 {
-        font-size: 0.45em;
+    #detail-page h2 {
+        font-size: 15px;
     }
 }
 @media only screen and (max-width: 450px) {
-    #detail-page h2 {
-        font-size: 1.4rem;
-    }
     .detail div {
         margin-left: 0.9em;
         padding: 0.45em;
-    }
-}
-@media only screen and (max-width: 320px) {
-    #detail-page h3 {
-        font-size: 0.35em;
     }
 }

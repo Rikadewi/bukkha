@@ -27,21 +27,21 @@ antara sebuah desain bangunan yang etnik dan modernis." data-rdm="true">
 @endsection
 
 @section('title-content')
-<h5>Villa Trembesi</h5>
-<h4>Contemporary Javanese Style</h4>
+Villa Trembesi
+@endsection
+@section('desc-content')
+Contemporary Javanese Style
 @endsection
 
 @section('content')
-<h2>Villa Trembesi</h2>
-<h3>
-    Gaya Arsitektur: Contemporary Javanese Style
-    <br />Tipe Bangunan: Villa
-    <br />Lokasi: Denpasar, Bali
-    <br />Luas: 235 m<sup>2</sup>
-    <br />Tahun: 2018
-    <br />Konsep dari villa adalah sebuah joglo kayu trembesi yang diletakan diatas beton kokoh, sebuah kontras 
-    antara sebuah desain bangunan yang etnik dan modernis. Meskipun villa diapit oleh bangunan pada sisi-sisinya, 
-    bangunan dirancang lepas dari dinding disekitarnya untuk ventilasi maksimal serta ditanami vegetasi vertikal 
-    untuk penghijauan. Villa menjadi tempat peristirahatan yang nyaman bagi tamu yang datang.
-</h3>
+<br />Gaya Arsitektur: Contemporary Javanese Style
+<br />Tipe Bangunan: Villa
+<br />Lokasi: Denpasar, Bali
+<br />Luas: 235 m<sup>2</sup>
+<br />Tahun: 2018
+<br />
+<br />Konsep dari villa adalah sebuah joglo kayu trembesi yang diletakan diatas beton kokoh, sebuah kontras 
+antara sebuah desain bangunan yang etnik dan modernis. Meskipun villa diapit oleh bangunan pada sisi-sisinya, 
+bangunan dirancang lepas dari dinding disekitarnya untuk ventilasi maksimal serta ditanami vegetasi vertikal 
+untuk penghijauan. Villa menjadi tempat peristirahatan yang nyaman bagi tamu yang datang.
 @endsection
