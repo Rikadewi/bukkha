@@ -581,8 +581,10 @@ a:hover {
 }
 @media only screen and (max-width: 576px) {
     #contact img {
-        max-height: 100vh;
-        max-width: 90vw;
+        max-width: 70vw;
+    }
+    #contact h2 {
+        font-size: 20px;
     }
     #contact p {
         font-size: 0.9em;
