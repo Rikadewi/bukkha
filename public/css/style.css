@@ -240,7 +240,7 @@ a:hover {
     border-color: transparent;
 } 
 .first-slide {
-    background-image: url('../img/icon/arrow-home.png');
+    background-image: url('../img/icon/arrow-home.svg');
 }
 @media only screen and (max-width: 1300px) {
     .first-slide {
