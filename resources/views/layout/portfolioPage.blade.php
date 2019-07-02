@@ -1,14 +1,17 @@
 @extends('layout.app')
 
 @section('menu')
-<div id = "menu" class = "portfolio-menu black-background" style = "display: flex">
-    <div>
-        <a href = "/"><i class="fas fa-angle-left"></i></a>
+<div id = "menu" class = "black-background">
+    <div class = "menu-filler-corner"></div>
+    <div class = "menu-logo">
+        <a href = "/"><img id = "menu-img" src="../img/logo/logo2-white.png"></a>
     </div>
-    <div class = "menu-logo" style = "display: block">
-        <a href = "/"><img src="../img/logo/logo2-white.png"></a>
-    </div>
-    <div style = "flex: 7"></div>
+    <div class = "menu-filler"></div>
+    <div><a href = "/#serviceSection">Service</a></div>
+    <div><a class="current-menu" href = "/#portfolioSection">Portfolio</a></div>
+    <div><a href = "/#valueSection">Our Value</a></div>
+    <div><a href = "/#contactSection">Contact</a></div>
+    <div class = "menu-filler-corner"></div>
 </div>
 @endsection
 

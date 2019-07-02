@@ -1,30 +1,10 @@
 @font-face {
     font-family: "kiona-regular";
-    src: url("../font/kiona/kiona-regular.ttf");
+    src: url("../font/kiona/Kiona-Regular.ttf");
 }
 @font-face {
-    font-family: "berthold-light";
-    src: url("../font/berthold/berthold-light.otf");
-}
-@font-face {
-    font-family: "berthold-regular";
-    src: url("../font/berthold/berthold-regular.otf");
-}
-@font-face {
-    font-family: "berthold-bold";
-    src: url("../font/berthold/berthold-bold.otf");
-}
-@font-face {
-    font-family: "nexa-book";
-    src: url("../font/nexa-x/NexaBook.otf");
-}
-@font-face {
-    font-family: "nexa-regular";
-    src: url("../font/nexa-x/NexaBold.otf");
-}
-@font-face {
-    font-family: "nexa-heavy";
-    src: url("../font/nexa-x/NexaHeavy.otf");
+    font-family: "kiona-bold";
+    src: url("../font/kiona/Kiona-Bold.ttf");
 }
 @font-face {
     font-family: "raleway-extralight";
@@ -110,6 +90,9 @@ a:hover {
 }
 #menu .menu-filler {
     flex: 1;
+}
+#menu .current-menu {
+    font-family: kiona-bold;
 }
 /* Collapsed Menu */
 /* .menu-burger img {
@@ -256,6 +239,14 @@ a:hover {
 .fp-controlArrow.fp-prev {
     border-color: transparent;
 } 
+.first-slide {
+    background-image: url('../img/icon/arrow-home.png');
+}
+@media only screen and (max-width: 1300px) {
+    .first-slide {
+        background-image: none;
+    }
+}
 
 /* Service */
 #service .center {

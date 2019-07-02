@@ -48,6 +48,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
         </div>
     </div>
     <div class = "slide">
+        <div class = "background first-slide"></div>
     </div>
     <div class = "slide">
         <div class = "background" style = "background-image: url('../img/house/1/front.jpg');">
