@@ -96,7 +96,7 @@ a:hover {
 #menu .menu-filler-corner {
     flex: 1;
 }
-.menu-logo img {
+.menu-logo img, .menu-back img {
     height:3vh;
 }
 #menu .menu-filler {
@@ -590,12 +590,23 @@ a:hover {
     }
 }
 /* Portfolio Page */
-#menu.portfolio-menu i {
-    font-size: 1.6em;
+@media only screen and (max-width: 576px) {
+    #menu.menu-portfolio {
+        display: flex;
+    }  
+    #menu.menu-portfolio > div {
+        display: none;
+    } 
+    #menu.menu-portfolio .menu-logo, #menu.menu-portfolio .menu-back {
+        display: block;
+        flex: 1;
+    }
+    #menu.menu-portfolio .menu-filler-corner {
+        display: block;
+        flex: 2;
+    }
 }
-#menu.portfolio-menu .menu-logo {
-    margin-left: 2em;
-}
+
 .black-shape {
     position: absolute;
     z-index: 9;

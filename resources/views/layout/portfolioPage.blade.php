@@ -1,8 +1,12 @@
 @extends('layout.app')
 
 @section('menu')
-<div id = "menu" class = "black-background">
-    <div class = "menu-filler-corner"></div>
+<div id = "menu" class = "menu-portfolio black-background">
+    <div class = "menu-back">
+        <a href="/#portfolioSection">
+            <img src="../img/icon/back-arrow-white.svg">
+        </a>
+    </div>
     <div class = "menu-logo">
         <a href = "/"><img id = "menu-img" src="../img/logo/logo2-white.png"></a>
     </div>
