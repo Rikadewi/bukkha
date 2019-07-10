@@ -81,8 +81,8 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                     <h1>Design</h1>
                 </div>
                 <div>
-                    <h3>We design your building based on the concept you want, develop it with creative and innovative ideas,
-                    and we will provide you with every detail you need to build it.  </h3>
+                    <h2>We design your building based on the concept you want, develop it with creative and innovative ideas,
+                    and we will provide you with every detail you need to build it.  </h2>
                 </div>
             </div>
             <div>
@@ -90,7 +90,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                     <h1>Construction</h1>
                 </div>
                 <div>
-                    <h3>We build your home, office, or any other building type with the best method possible. </h3>
+                    <h2>We build your home, office, or any other building type with the best method possible. </h2>
                 </div>
             </div>
             <div>
@@ -98,7 +98,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                     <h1>Maintenance</h1>
                 </div>
                 <div>
-                    <h3>We guarantee the service of helping you with your building's maintenance.</h3>
+                    <h2>We guarantee the service of helping you with your building's maintenance.</h2>
                 </div>
             </div>
 
@@ -171,8 +171,8 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                 <div>
                     <div class="center">
                         <h1>Hassle Free</h1>
-                        <h3>Throughout the process of realizing your dream building from legal issues until maintenance, 
-                        we will offer our holistic service for you.</h3>
+                        <h2>Throughout the process of realizing your dream building from legal issues until maintenance, 
+                        we will offer our holistic service for you.</h2>
                     </div>
                     <div class="center">
                         <img src = "img/value/1.png">
@@ -181,7 +181,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                 <div>
                     <div class="center">
                         <h1>Good Design</h1>
-                        <h3>Our design based on energy efficiency and sustainable approach, with innovative thinking.</h3>
+                        <h2>Our design based on energy efficiency and sustainable approach, with innovative thinking.</h2>
                     </div>
                     <div class="center">
                         <img src = "img/value/2.png">
@@ -190,8 +190,8 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                 <div>
                     <div class="center">
                         <h1>Challenge the status quo</h1>
-                        <h3>We learn for preceding buildings, but we will offer a broader ranges of design approaches and 
-                        ideas for you to explore so that your building will be custom-made just for you.</h3>
+                        <h2>We learn for preceding buildings, but we will offer a broader ranges of design approaches and 
+                        ideas for you to explore so that your building will be custom-made just for you.</h2>
                     </div>
                     <div class="center">
                         <img src = "img/value/3.png">
@@ -212,22 +212,22 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
             <div class = "data">
                 <a href="mailto:hello@bukkha.com">
                     <div>
-                        <h2><i class="fas fa-envelope"></i>hello@bukkha.com</h2>
+                        <h1><i class="fas fa-envelope"></i>hello@bukkha.com</h1>
                     </div>
                 </a>
                 <a href="https://wa.me/+6282211511517">
                     <div>
-                        <h2><i class="fas fa-phone"></i>+62 822 115 115 17</h2>
+                        <h1><i class="fas fa-phone"></i>+62 822 115 115 17</h1>
                     </div>
                 </a>
                 <a href="https://www.facebook.com/bukkha.id/">
                     <div>
-                        <h2><i class="fab fa-facebook-square"></i>@bukkha.id</h2>
+                        <h1><i class="fab fa-facebook-square"></i>@bukkha.id</h1>
                     </div>
                 </a>
                 <a href="https://www.instagram.com/bukkha/">
                     <div>
-                        <h2><i class="fab fa-instagram"></i>bukkha</h2>
+                        <h1><i class="fab fa-instagram"></i>bukkha</h1>
                     </div>
                 </a>
             </div>

@@ -45,7 +45,7 @@ html {
     background-color: white;
     height: 100vh;
     color: black;
-    font-family: nexa-regular;
+    font-family: raleway-regular;
     font-size: 2em;
 }
 /* Heading */
@@ -55,14 +55,25 @@ h1 {
 }
 h2 {
     font-family: raleway-light;
-    font-size: 25px;
+    font-size: 16px;
 }
 h3 {
     font-family: raleway-extralight;
-    font-size: 15px;
+    font-size: 14px;
 }
 a:hover {
     text-decoration: none;
+}
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 12px;
+    }
 }
 /* Menu Bar */
 #menu {
@@ -170,6 +181,16 @@ a:hover {
     margin-bottom: -0.2em;
     margin-right: 0.3em;
 }
+@media only screen and (max-width: 768px) {
+    .homepage-title {
+        font-size: 1.3em;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .homepage-title {
+        font-size: 1.05em;
+    }
+}
 
 .gray-background {
     background-color: #1A1A1A;
@@ -199,14 +220,14 @@ a:hover {
     max-width: 50vw;
     margin: 10px;
 }
-#home .arrow {
+/* #home .arrow {
     text-align: center;
     margin-top: -2vh;
     font-size: 1.5em;
-}
+} */
 .arrow a {
     color: white;
-}
+} 
 .white-background {
     background-color: white;
 }
@@ -279,6 +300,7 @@ a:hover {
     animation: 
       typing 3.5s steps(40, end),
       blink-caret 0.75s step-end infinite;
+    font-size: 23px;
 }
 /* The typing effect */
 @keyframes typing {
@@ -314,8 +336,8 @@ a:hover {
         max-width: 500px;
         margin: 0 1em;
     }
-    .homepage-title {
-        font-size: 1.3em;
+    .typewriter h2 {
+        font-size: 20px;
     }
 }
 @media only screen and (max-width: 576px) {
@@ -490,12 +512,6 @@ a:hover {
     .value-image img {
         height: 60vw;
     }
-    h1 {
-        font-size: 0.7em;
-    }
-    h3 {
-        font-size: 0.4em;
-    }
     .values img {
         height: 10vh;
     }
@@ -506,12 +522,6 @@ a:hover {
     }
     .values {
         margin: 1em;
-    }
-    .values h1 {
-        font-size: 0.9em;
-    }
-    .values h3 {
-        font-size: 0.5em;
     }
     .values img {
         height: 15vh;
@@ -537,7 +547,7 @@ a:hover {
         flex-direction: column-reverse;
     }
     .values img {
-        height: 25vh;
+        height: 50vw;
         margin: 1em;
     }
 }
@@ -573,9 +583,6 @@ a:hover {
 @media only screen and (max-width: 576px) {
     #contact img {
         max-width: 70vw;
-    }
-    #contact h2 {
-        font-size: 20px;
     }
     #contact p {
         font-size: 0.9em;
@@ -623,8 +630,11 @@ a:hover {
     min-width: 380px;
     height: auto;
 }
-#portfolio-page h3{
-    font-size: 20px;
+#portfolio-page h1{
+    font-size: 30px;
+}
+#portfolio-page h2{
+    font-size: 25px;
 }
 #portfolio-page ul li a span {
     background: white;
@@ -647,6 +657,15 @@ a:hover {
         padding: 1em 0px;
     }
 }
+@media only screen and (max-width: 576px) {
+    #portfolio-page h1{
+        font-size: 25px;
+    }
+    #portfolio-page h2{
+        font-size: 20px;
+    }
+}
+
 /* Detail Page */
 #detail-page .paragraph > div {
     flex: 1;
@@ -654,12 +673,6 @@ a:hover {
 .detail div {
     border-left: 1px solid #999;
     padding: 1em;
-}
-#detail-page h1 {
-    font-size: 30px;
-}
-#detail-page h2 {
-    font-size: 20px;
 }
 @media only screen and (max-width: 768px) {
     #detail-page .paragraph .detail-filler {
@@ -672,9 +685,6 @@ a:hover {
     }
     .detail div {
         margin-left: 1.8em;
-    }
-    #detail-page h2 {
-        font-size: 15px;
     }
 }
 @media only screen and (max-width: 450px) {

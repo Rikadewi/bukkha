@@ -22,7 +22,7 @@
     <div class = "black-shape">
         <div class = "shape-content center">
             <h1>@yield('title-content')</h1>
-            <h3>@yield('desc-content')</h3>
+            <h2>@yield('desc-content')</h2>
             <div class = "arrow">
                 <a href="#detailPageSection"><i class="fas fa-angle-down"></i></a>
             </div>
