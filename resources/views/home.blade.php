@@ -210,22 +210,22 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                 <p>Contact Us</p>
             </div>
             <div class = "data">
-                <a href="mailto:hello@bukkha.com">
+                <a href="mailto:hello@bukkha.com" target="_blank">
                     <div>
                         <h1><i class="fas fa-envelope"></i>hello@bukkha.com</h1>
                     </div>
                 </a>
-                <a href="https://wa.me/+6282211511517">
+                <a href="https://wa.me/+6282211511517" target="_blank">
                     <div>
                         <h1><i class="fas fa-phone"></i>+62 822 115 115 17</h1>
                     </div>
                 </a>
-                <a href="https://www.facebook.com/bukkha.id/">
+                <a href="https://www.facebook.com/bukkha.id/" target="_blank">
                     <div>
                         <h1><i class="fab fa-facebook-square"></i>@bukkha.id</h1>
                     </div>
                 </a>
-                <a href="https://www.instagram.com/bukkha/">
+                <a href="https://www.instagram.com/bukkha/" target="_blank">
                     <div>
                         <h1><i class="fab fa-instagram"></i>bukkha</h1>
                     </div>
