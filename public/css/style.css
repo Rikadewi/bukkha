@@ -43,7 +43,7 @@ html {
 }
 .section {
     background-color: white;
-    height: 100vh;
+    min-height: 100vh;
     color: black;
     font-family: raleway-regular;
     font-size: 2em;
@@ -667,6 +667,7 @@ a:hover {
         margin-left: 0px;
         bottom: 10vh;
         padding: 1em 0px;
+        min-width: auto;
     }
 }
 @media only screen and (max-width: 576px) {
@@ -691,6 +692,9 @@ a:hover {
 #detail-page .paragraph > div {
     flex: 1;
 }
+.detail-filler img {
+    width: 50vw;
+}
 .detail div {
     border-left: 1px solid #999;
     padding: 1em;
@@ -702,10 +706,13 @@ a:hover {
 }
 @media only screen and (max-width: 576px) {
     #detail-page .paragraph {
-        display: block;
+        flex-direction: column;
     }
     .detail div {
         margin-left: 1.8em;
+    }
+    .detail-filler img {
+        width: 100vw;
     }
 }
 @media only screen and (max-width: 450px) {

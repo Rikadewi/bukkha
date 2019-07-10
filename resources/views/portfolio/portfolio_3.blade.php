@@ -26,6 +26,10 @@ antara sebuah desain bangunan yang etnik dan modernis." data-rdm="true">
 </style>
 @endsection
 
+@section('image')
+<img src="../img/house/3/sketch.png">
+@endsection
+
 @section('title-content')
 Villa Trembesi
 @endsection

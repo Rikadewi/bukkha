@@ -26,6 +26,10 @@ struktur terbuka dengan pelingkup kaca disela-sela struktur." data-rdm="true">
 </style>
 @endsection
 
+@section('image')
+<img src="../img/house/1/sketch.png">
+@endsection
+
 @section('title-content')
 Dou House
 @endsection

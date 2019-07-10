@@ -54,8 +54,10 @@
     </div>
 </div>
 <div id = "detail-page" class = "section gray-background">
-<div class = "paragraph">
-        <div class="detail-filler"></div>
+    <div class = "paragraph">
+        <div class="detail-filler">
+            @yield('image')
+        </div>
         <div class = "detail center">
             <div>
                 <h1>@yield('title-content')</h1>

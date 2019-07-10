@@ -1,12 +1,10 @@
 $(function() {
    $('#fullpage').fullpage({
 		// //options here
-		// autoScrolling:true,
-      // scrollHorizontally: true
       anchors: ['portfolioPageSection', 'detailPageSection'],
       slidesNavigation: 'true',
       verticalCentered: 'false',
-      // scrollBar: 'true',
+      responsiveWidth: 576,
    });
    $(document).on('load', setInterval(function(){
       fullpage_api.moveSlideRight();

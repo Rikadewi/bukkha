@@ -26,6 +26,10 @@ content="Rumah tinggal dan kantor ini memiliki konsep rumah dalam taman. Dikaren
 </style>
 @endsection
 
+@section('image')
+<img src="../img/house/2/sketch.png">
+@endsection
+
 @section('title-content')
 VJ House
 @endsection
