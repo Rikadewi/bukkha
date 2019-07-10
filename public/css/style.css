@@ -627,14 +627,14 @@ a:hover {
 .shape-content {
     position: absolute;
     width: 30vw;
-    min-width: 380px;
+    min-width: 390px;
     height: auto;
 }
 #portfolio-page h1{
-    font-size: 30px;
+    font-size: 28px;
 }
 #portfolio-page h2{
-    font-size: 25px;
+    font-size: 24px;
 }
 #portfolio-page ul li a span {
     background: white;
@@ -648,6 +648,7 @@ a:hover {
     .shape-content {
         width: 100vw;
         height: auto;
+        min-width: auto;
     }
     .black-shape {
         width: 100vw;
@@ -665,6 +666,15 @@ a:hover {
         font-size: 20px;
     }
 }
+@media only screen and (max-width: 400px) {
+    #portfolio-page h1{
+        font-size: 20px;
+    }
+    #portfolio-page h2{
+        font-size: 15px;
+    }
+}
+
 
 /* Detail Page */
 #detail-page .paragraph > div {
