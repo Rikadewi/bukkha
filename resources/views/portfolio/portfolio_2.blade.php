@@ -1,7 +1,7 @@
 @extends('layout.portfolioPage')
 
 @section('title')
-VJ House | Modern Tropical Style | Bukkha
+Overflow House | Modern Tropical Style | Bukkha
 @endsection
 @section('meta-description')
 <meta name="description" 
@@ -31,7 +31,7 @@ content="Rumah tinggal dan kantor ini memiliki konsep rumah dalam taman. Dikaren
 @endsection
 
 @section('title-content')
-VJ House
+Overflow House
 @endsection
 @section('desc-content')
 Modern Tropical Style
@@ -44,8 +44,10 @@ Modern Tropical Style
 <br />Luas: 510 m<sup>2</sup>
 <br />Tahun: 2018
 <br />
-<br />Rumah tinggal dan kantor ini memiliki konsep rumah dalam taman. Dikarena site tidak memiliki pemandangan yang 
-mencukupi, rumah dirancang dengan lansekap pada bagian dalam. Berbeda dengan rumah pada umumnya yang memiliki frontyard 
-dan/atau backyard, rumah memiliki middle yard yang menghubungi kantor yang lebih publik didepan menuju rumah yang 
-lebih privat dibelakangnya.
+<br />Rumah tinggal dan kantor ini memiliki nama overflow yang diambil dari konsep air 
+yang dialirkan pada seluruh bangunan. Dikarena site tidak memiliki pemandangan yang 
+mencukupi, rumah dirancang dengan lansekap dalam yang maksimal. Selain memiliki frontyard 
+dan backyard, rumah memiliki waterscaping di ruang perantara yang menghubungi kantor yang 
+lebih publik didepan menuju rumah yang lebih privat dibelakangnya. Kesan natural 
+ditampilkan didalam bangunan melewati elemen air dan tanah.
 @endsection

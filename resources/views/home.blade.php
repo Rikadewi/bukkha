@@ -129,7 +129,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
             <div class="center">
                 <div class = "content center">
                     <div class="center">
-                        <h1>VJ House</h1>
+                        <h1>Overflow House</h1>
                         <h3>Modern Tropical Style</h3>
                     </div>
                     <a href = "/portfolio/2">
