@@ -691,6 +691,7 @@ a:hover {
 /* Detail Page */
 #detail-page .paragraph > div {
     flex: 1;
+    margin-bottom: 1em;
 }
 .detail-filler img {
     width: 50vw;

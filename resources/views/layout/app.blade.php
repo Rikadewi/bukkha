@@ -13,10 +13,10 @@
         <meta property="og:desription" content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan client, ergonomis, dan inovasi bangunan.">
         <meta property="og:type" content="business">
         <meta property="og:url" content="http://bukkha.com">
-        <meta property="og:image" content="https://bukkha.com/img/logo/arrow-black.png">
+        <meta property="og:image" content="https://bukkha.com/img/logo/arrow-black.svg">
 
         
-        <link rel="icon" type="image/ico" href="../img/logo/arrow-black.png" />
+        <link rel="icon" type="image/ico" href="../img/logo/arrow-black.svg" />
         
         <!--Font-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 

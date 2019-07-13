@@ -70,7 +70,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
 <div id = "service" class = "center section">
     <div class = "center">
         <div class = "homepage-title">
-            <img src = "img/logo/arrow-black.png"> SERVICE
+            <img src = "img/logo/arrow-black.svg"> SERVICE
         </div>
         <div class="typewriter">
             <h2>From a humble abode until the highest skyscrapers, we beileve it should feel just like a bukkha. A home.</h2>
@@ -161,7 +161,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
 <div id = "value" class = "section">
     <div class = "center">
         <div id = "overflown-homepage-title" class = "homepage-title">
-            <img src = "img/logo/arrow-black.png"> OUR VALUE
+            <img src = "img/logo/arrow-black.svg"> OUR VALUE
         </div>
         <div class = "paragraph">
             <div class = "value-image center">
@@ -194,7 +194,7 @@ content="Bukkha adalah perusahaan rancang bangun yang mengedepankan kenyamanan c
                         ideas for you to explore so that your building will be custom-made just for you.</h2>
                     </div>
                     <div class="center">
-                        <img src = "img/value/3.png">
+                        <img src = "img/value/3.svg">
                     </div>
                 </div>
             </div>

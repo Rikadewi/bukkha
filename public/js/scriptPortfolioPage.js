@@ -8,5 +8,5 @@ $(function() {
    });
    $(document).on('load', setInterval(function(){
       fullpage_api.moveSlideRight();
-   },5000));
+   },7000));
  });
